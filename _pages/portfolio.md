@@ -1,13 +1,10 @@
-
 ---
+title:  "Portfolio"
+layout: archive
 permalink: /portfolio/
-title: "Portfolio"
+author_profile: true
+comments: true
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu$
-
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididun$
-
-
-
+This is my portfolio page.
 
