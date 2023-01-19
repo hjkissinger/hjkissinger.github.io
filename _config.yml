@@ -92,15 +92,15 @@ footer:
 defaults:
    #_home
   - scope:
-      path: ""
+      path: "/"
       type: pages
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+      #read_time: true
+      #comments: true
+      #share: true
+      #related: true
   # _about
   - scope:
       path: "_pages/_about"
@@ -109,6 +109,28 @@ defaults:
       layout: single
       author_profile: true
       share: true
+   # _portfolio
+   - scope:
+      path: "_pages/_portfolio"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+   # _blog
+   - scope:
+      path: "_pages/_blog"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
   
 
 category_archive:
