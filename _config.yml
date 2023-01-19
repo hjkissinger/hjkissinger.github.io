@@ -93,7 +93,7 @@ defaults:
    #_home
   - scope:
       path: ""
-      type: home
+      #type: pages
     values:
       layout: splash
       author_profile: true
@@ -103,24 +103,24 @@ defaults:
       related: true
   # _about
   - scope:
-      path: "_about"
-      type: about
+      path: "_pages/_about"
+      #type: pages
     values:
       layout: single
       author_profile: true
       share: true
-  # _portfolio
+   # _portfolio
   - scope:
-      path: "_portfolio"
-      type: portfolio
+      path: "_pages/_portfolio"
+      #type: pages
     values:
       layout: single
       author_profile: true
       share: true
    # _blog
   - scope:
-      path: "_blog"
-      type: blog
+      path: "_pages/_blog"
+      #type: pages
     values:
       layout: single
       author_profile: true
