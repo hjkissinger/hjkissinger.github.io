@@ -61,7 +61,7 @@ plugins:
 author:
   name   : "Hannah Kissinger"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "# Data-Driven Solutions\##Hand-Crafted Insights"
+  bio    : "# Data-Driven Solutions ##Hand-Crafted Insights"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
