@@ -62,7 +62,7 @@ plugins:
 author:
   name   : "Hannah Kissinger"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Data Analyst | Microbiologist | Dog Lover"
+  bio    : "Data Analyst Microbiologist Dog Lover"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
