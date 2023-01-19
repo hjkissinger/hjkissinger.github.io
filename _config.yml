@@ -90,7 +90,7 @@ footer:
       url: "https://linkedin.com/in/hannah-j-kissinger-854403116/"
 
 defaults:
-   #_home
+   #_pages
    - scope:
       path: ""
       type: pages
@@ -101,28 +101,9 @@ defaults:
       comments: true
       share: true
       related: true
-  # _about
-  - scope:
-      path: "_pages/_about"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-      share: true
-   # _portfolio
+    #_about
    - scope:
-      path: "_pages/_portfolio"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-   # _blog
-   - scope:
-      path: "_pages/_blog"
+      path: "/about/"
       type: pages
     values:
       layout: single
