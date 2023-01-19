@@ -72,9 +72,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/hjkissinger"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/hannah-j-kissinger-854403116/"
+   # - label: "LinkedIn"
+    #  icon: "fab fa-fw fa-linkedin"
+     # url: "https://linkedin.com/in/hannah-j-kissinger-854403116/"
 
 footer:
   links:
@@ -84,9 +84,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/hjkissinger"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/hannah-j-kissinger-854403116/"
+   # - label: "LinkedIn"
+      #icon: "fab fa-fw fa-linkedin"
+      #url: "https://linkedin.com/in/hannah-j-kissinger-854403116/"
 
 defaults:
   # _posts
