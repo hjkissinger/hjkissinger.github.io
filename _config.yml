@@ -112,6 +112,7 @@ defaults:
       
   - scope:
        path: ""
+       type: pages
        values:
          layout: splash
          permalink: /
