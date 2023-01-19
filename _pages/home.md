@@ -1,7 +1,7 @@
 ---
 title:  "Home"
 layout: splash
-permalink: /home/
+permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
