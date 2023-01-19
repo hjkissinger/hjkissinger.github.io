@@ -92,7 +92,7 @@ footer:
 defaults:
    #_home
   - scope:
-      path: "/"
+      path: ""
       type: pages
     values:
       layout: single
