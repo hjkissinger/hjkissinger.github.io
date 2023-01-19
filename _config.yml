@@ -96,8 +96,7 @@ defaults:
       type: posts
     values:
       layout: splash
-       classes:
-        - landing
+       classes: landing
       author_profile: true
       read_time: true
       comments: true
