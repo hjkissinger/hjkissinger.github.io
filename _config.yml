@@ -62,7 +62,7 @@ plugins:
 author:
   name   : "Hannah Kissinger"
   avatar : "/assets/images/hjkissinger-pic.jpg"
-  bio    : "Data analyst, microbiologist, and enthusiast of all things creative."
+  bio    : "Data analyst, microbiologist, and handcrafts enthusiast."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
