@@ -62,7 +62,7 @@ plugins:
 author:
   name   : "Hannah Kissinger"
   avatar : "/assets/images/hjkissinger-pic.jpg"
-  bio    : "Interested in learning more about my projects? Let's connect!"
+  bio    : "Enthusiast of all things creative."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
