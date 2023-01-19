@@ -1,7 +1,7 @@
 ---
 title:  "Home"
 layout: splash
-permalink: /
+permalink: /home/
 author_profile: true
 comments: true
 ---
