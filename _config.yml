@@ -61,7 +61,7 @@ plugins:
 
 author:
   name   : "Hannah Kissinger"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/hjkissinger-pic.jpg"
   bio    : "Interested in learning more about my projects? Let's connect!"
   links:
     - label: "Website"
@@ -95,7 +95,9 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: splash
+       classes:
+        - landing
       author_profile: true
       read_time: true
       comments: true
