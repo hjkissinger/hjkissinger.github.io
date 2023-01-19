@@ -91,18 +91,18 @@ footer:
 
 defaults:
    #_home
-    - scope:
+   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
-      #read_time: true
-      #comments: true
-      #share: true
-      #related: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
   # _about
-    - scope:
+  - scope:
       path: "_pages/_about"
       type: pages
     values:
@@ -110,7 +110,7 @@ defaults:
       author_profile: true
       share: true
    # _portfolio
-    - scope:
+   - scope:
       path: "_pages/_portfolio"
       type: pages
     values:
@@ -121,7 +121,7 @@ defaults:
       share: true
       related: true
    # _blog
-    - scope:
+   - scope:
       path: "_pages/_blog"
       type: pages
     values:
