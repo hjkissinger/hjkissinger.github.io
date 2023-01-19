@@ -91,7 +91,7 @@ footer:
 
 defaults:
    #_home
-  - scope:
+   - scope:
       path: ""
       type: pages
     values:
