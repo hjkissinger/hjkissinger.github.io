@@ -1,5 +1,5 @@
 ---
-title:  "<p>Data-Driven Solutions.<br>Hand-Crafted Insights.</p> {: .text-center}"
+title:  "<p>Data-Driven Solutions.<br>Hand-Crafted Insights.</p>"
 layout: splash
 permalink: /
 hidden: true
