@@ -6,9 +6,7 @@ hidden: true
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/kari-shea-1SAnrIxw5OY-unsplash.jpg
-  actions:
-    - label: "Learn More" {: .text-center}
-      url: "/about/"
+  <a href="/about/" class="btn btn--inverse">"Learn More"{: .text-center}</a>
 ---
 
 This is my home page.
