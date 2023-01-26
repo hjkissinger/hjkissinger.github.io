@@ -36,14 +36,23 @@ feature_row:
 
 ![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/hjkissinger-pic_400x500.jpg){: .align-right}
 
-<p>Hi, my name is Hannah J. Kissinger! <br> I am an interdisciplinary data analyst who loves cleaning, diving into, and unraveling data mysteries.</p> 
-
-<p>What I use for my projects:<br>Tools- Spreadsheets, RStudio, BigQuery, Tableau<br>Languages- R, SQL</p>
-
-<p>Degree specializations:<br>MHS: Health sciences | Chemistry | Microbiology<br>MBA: Business analytics</p>
-
-<p>My life philosophy is *'Live Hygge!'* (Live Cozy!)</p> 
-<p>When I am not working on code- I love to knit, read, and spend time with my six rescue dogs!</p>
+<p>Hi, my name is Hannah J. Kissinger! <br> I am an interdisciplinary data analyst who loves cleaning, diving into, and unraveling data mysteries. When I am not working on code- I love to knit, read, and spend time with my six rescue dogs!<br> 
+<br>
+My life philosophy is <strong>'Live Hygge!' (Live Cozy!)</strong>
+<br>
+<em><strong>What I use for my projects:</strong></em>
+<br>
+<ul>
+  <li>Tools- Spreadsheets, Excel, RStudio, BigQuery, Tableau</li>
+  <li>Languages- R, SQL</li>
+</ul>
+<br>
+<em><strong>Degree specializations:</strong></em>
+<br>
+<ul>
+  <li>BS & MHS: Health sciences | Chemistry | Microbiology</li>
+  <li>MBA: Business analytics</li>
+</p>
 
 <h1 style="text-align: center;">Services</h1>
 {% include feature_row %}
