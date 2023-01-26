@@ -33,5 +33,5 @@ feature_row:
     btn_label: "Read More" 
     btn_class: "btn--inverse"
 ---
-<h1> style="text-align: center;">Featured Projects</h1>
+<h1 style="text-align: center;">Featured Projects>h1
 {% include feature_row %}
