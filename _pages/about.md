@@ -35,13 +35,13 @@ feature_row:
 
 ![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/hjkissinger-pic_400x500.jpg){: .align-right}
 
-<p><br>Hi, my name is Hannah J. Kissinger! I am an interdisciplinary data analyst who loves cleaning, diving into, and unraveling data mysteries. When I am not working on code- <br> I love to sit in front of my fireplace while I knit, read, and spend time with my six rescue dogs! My life philosophy is <strong>'Live Hygge!' </strong><em>(Live Cozy!)<em></p>
-<p><br><em><strong>What I use for my projects:</strong></em></p>
+<p><br>Hi, my name is Hannah J. Kissinger!  I am an interdisciplinary data analyst who loves cleaning, diving into, and unraveling data mysteries.  When I am not working on code- <br>  I love to sit in front of my fireplace while I knit, read, and spend time with my six rescue dogs!  My life philosophy is <strong>'Live Hygge!' </strong><em>(Live Cozy!)<em>
+<p><em><strong>What I use for my projects:</strong></em></p>
 <ul>
   <li>Tools- Spreadsheets, Excel, RStudio, BigQuery, Tableau</li>
   <li>Languages- R, SQL</li>
 </ul>
-<p><br><em><strong>Degree specializations:</strong></em></p>
+<p><em><strong>Degree specializations:</strong></em></p>
 <ul>
   <li>BS: Biomedical Science | Chemistry | Microbiology</li>
   <li>MHS: Medical Laboratory Science | Microbiology</li>
