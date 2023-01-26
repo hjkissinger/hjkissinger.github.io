@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Hannah J. Kissinger
-subtitle: Data-Driven Solutions | Hand-Crafted Insights
+#subtitle:
 email:
 description: This GitHub portfolio is a place of exploration. Join me on my data analyst journey as I deep dive into dirty data, learn code, and discover insights! 
 #>- # this means to ignore newlines until "baseurl:"
