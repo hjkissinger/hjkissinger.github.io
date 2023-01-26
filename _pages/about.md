@@ -34,6 +34,8 @@ feature_row:
 ---
 <h1 style="text-align: center;">About</h1>
 
+![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/hjkissinger-pic_300x400.jpg){: .align-right}
+
 <p>Hi, my name is Hannah J. Kissinger! <br> I am an interdisciplinary data analyst who loves cleaning, diving into, and unraveling data mysteries.</p> 
 
 <p>What I use for my projects:<br>Tools- Spreadsheets, RStudio, BigQuery, Tableau<br>Languages- R, SQL</p>
