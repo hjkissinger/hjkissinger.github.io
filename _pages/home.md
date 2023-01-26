@@ -21,7 +21,7 @@ feature_row:
     title: "Farmer's Market"
     #excerpt: "Placeholder for farmer's market project"
     url: "/blog/"
-    btn_label: "Read More" {: .align-center}
+    btn_label: "Read More" 
     btn_class: "btn--inverse"
   - image_path: /assets/images/aaron-burden-2xhOYKK-jAM-unsplash_c.jpg
     title: "Bee Microbiome"
