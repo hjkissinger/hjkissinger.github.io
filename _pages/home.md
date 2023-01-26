@@ -5,7 +5,7 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/annisa-ica-WomyQGrd9ss-unsplash_copy.jpg
+  overlay_image: /assets/images/rocknwool-Ls7yE8NpNqk-unsplash.jpg
   actions: 
     - label: "Learn More"
       url: "/about/" 
