@@ -5,7 +5,7 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/rocknwool-Ls7yE8NpNqk-unsplash.jpg
+  overlay_image: /assets/images/oksana-maselko-tkuUS11XyaA-unsplash.jpg
   actions: 
     - label: "Learn More"
       url: "/about/" 
