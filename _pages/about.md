@@ -7,7 +7,7 @@ hidden: true
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/oksana-maselko-tkuUS11XyaA-unsplash.jpg
-  image_description: "Picture of a pile of yarn skeins with the words: Data driven solutions, hand crafted insights." 
+  image_description: "Picture of a pile of yarn skeins with the words: About." 
 
 feature_row:
   - image_path: /assets/images/jan-kopriva-TEDo1eO8te4-unsplash.jpg
