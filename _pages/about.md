@@ -10,21 +10,21 @@ header:
   image_description: "Picture of a pile of yarn skeins with the words: Data driven solutions, hand crafted insights." 
 
 feature_row:
-  - image_path: /assets/images/ishan-seefromthesky-4xmgrNUbyNA-unsplash_c.jpg
+  - image_path: /assets/images/jan-kopriva-TEDo1eO8te4-unsplash.jpg
     alt: "Data processing"
     title: "Data Processing"
     excerpt: "Coming Soon"
     url: "/blog/"
     btn_label: "Example" 
     btn_class: "btn--inverse"
-  - image_path: /assets/images/annie-spratt-PJNZiu7FULA-unsplash_c.jpg
+  - image_path: /assets/images/dawid-liberadzki-vPFbVB7DPZI-unsplash.jpg
     alt: "Data Analytics"
     title: "Data Analytics"
     excerpt: "Coming Soon"
     url: "/blog/"
-    btn_label: "Portfolio" 
+    btn_label: "Example" 
     btn_class: "btn--inverse"
-  - image_path: /assets/images/aaron-burden-2xhOYKK-jAM-unsplash_c.jpg
+  - image_path: /assets/images/edward-howell-VlTJdP8ZY1c-unsplash.jpg
     alt: "Data Visualization"
     title: "Data Visualization"
     excerpt: "Coming Soon"
