@@ -13,7 +13,7 @@ header:
 
 feature_row:
   - image_path: /assets/images/ishan-seefromthesky-4xmgrNUbyNA-unsplash_c.jpg
-    alt: "Ocean with microplastic litter and fish"
+    alt: "Empty plastic bottle on beach"
     title: "Microplastics"
     #excerpt: "Placeholder for microplastic project"
     url: "/blog/"
@@ -27,6 +27,7 @@ feature_row:
     btn_label: "Read More" 
     btn_class: "btn--inverse"
   - image_path: /assets/images/aaron-burden-2xhOYKK-jAM-unsplash_c.jpg
+    alt: "Bee on flower"
     title: "Bee Microbiome"
     #excerpt: "Placeholder for bee project"
     url: "/blog/"
