@@ -34,13 +34,13 @@ feature_row:
 ---
 <h1 style="text-align: center;">About</h1>
 
-<p style="text-align: center;">Hi, my name is Hannah J. Kissinger! <br> I am an interdisciplinary data analyst who loves cleaning, diving into, and unraveling data mysteries.</p> 
+<p>Hi, my name is Hannah J. Kissinger! <br> I am an interdisciplinary data analyst who loves cleaning, diving into, and unraveling data mysteries.</p> 
 
-<p style="text-align: center;">What I use for my projects:<br>Tools- Spreadsheets, RStudio, BigQuery, Tableau<br>Languages- R, SQL</p>
+<p>What I use for my projects:<br>Tools- Spreadsheets, RStudio, BigQuery, Tableau<br>Languages- R, SQL</p>
 
-<p style="text-align: center;">Degree specializations:<br>MHS: Health sciences | Chemistry | Microbiology<br>MBA: Business analytics</p>
+<p>Degree specializations:<br>MHS: Health sciences | Chemistry | Microbiology<br>MBA: Business analytics</p>
 
-<p style="text-align: center;">My life philosophy is *'Live Hygge!'* (Live Cozy!)</p> 
+<p>My life philosophy is *'Live Hygge!'* (Live Cozy!)</p> 
 <p>When I am not working on code- I love to knit, read, and spend time with my six rescue dogs!</p>
 
 <h1 style="text-align: center;">Services</h1>
