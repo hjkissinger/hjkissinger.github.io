@@ -9,8 +9,6 @@ header:
   actions: 
     - label: "Learn More"
       url: "/about/" 
-    - label: "Portfolio"
-      url: "/portfolio/"
 
 ---
 
