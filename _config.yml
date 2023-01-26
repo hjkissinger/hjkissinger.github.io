@@ -62,7 +62,7 @@ plugins:
 author:
   name   : "Hannah Kissinger"
   avatar : "/assets/images/hjkissinger-pic.jpg"
-  bio    : "Data analyst, microbiologist, and handcrafts enthusiast."
+  bio    : "Data diver | Microbiologist | Handcrafts Enthusiast"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -73,9 +73,13 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/hjkissinger"
+    - label: "Tableau"
+      icon: /assets/images/tableau_icon
+      url: "https://public.tableau.com/app/profile/hannah.kissinger6750"
     - label: "LinkedIn"
       icon: "fab fa-brands fa-linkedin"
       url: "https://linkedin.com/in/hannah-j-kissinger-854403116/"
+
 
 footer:
   links:
@@ -85,6 +89,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/hjkissinger"
+    - label: "Tableau"
+      icon: /assets/images/tableau_icon
+      url: "https://public.tableau.com/app/profile/hannah.kissinger6750"
     - label: "LinkedIn"
       icon: "fab fa-brands fa-linkedin"
       url: "https://linkedin.com/in/hannah-j-kissinger-854403116/"
