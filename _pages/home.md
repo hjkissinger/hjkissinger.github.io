@@ -12,7 +12,7 @@ header:
       url: "/about/" 
 
 feature_row:
-  - image_path: /assets/images/soren-funk-jQuky0VINAI-unsplash_c.jpg
+  - image_path: /assets/images/naja-bertolt-jensen-GncNA7EKS8U-unsplash_c.jpg
     alt: "Ocean with microplastic litter and fish"
     title: "Microplastics"
     #excerpt: "Placeholder for microplastic project"
@@ -21,7 +21,7 @@ feature_row:
     title: "Farmer's Market"
     #excerpt: "Placeholder for farmer's market project"
     url: "/blog/"
-    btn_label: "Read More"
+    btn_label: "Read More" {: .align-center}
     btn_class: "btn--inverse"
   - image_path: /assets/images/aaron-burden-2xhOYKK-jAM-unsplash_c.jpg
     title: "Bee Microbiome"
