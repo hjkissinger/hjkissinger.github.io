@@ -47,7 +47,7 @@ feature_row:
   <li>Languages- R, SQL</li>
   <li>Tools- Spreadsheets, Excel, RStudio, BigQuery, Tableau</li>
 </ul>
-<p><br></p>
+<p><br><br></p>
 
 <h1 style="text-align: center;">Services</h1>
 {% include feature_row %}
