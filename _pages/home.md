@@ -5,7 +5,7 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/tara-evans-G-AQWUTgMZo-unsplash.jpg
+  overlay_image: /assets/images/annisa-ica-WomyQGrd9ss-unsplash.jpg
   actions: 
     - label: "Learn More"
       url: "/about/" 
