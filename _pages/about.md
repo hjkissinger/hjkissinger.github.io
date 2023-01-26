@@ -33,7 +33,7 @@ feature_row:
     btn_class: "btn--inverse"
 ---
 
-![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/hjkissinger-pic_400x500.jpg){: .align-right}
+![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/hjkissinger-pic_450x580.jpg){: .align-right}
 
 <p><br>Hi, my name is Hannah J. Kissinger!  I am an interdisciplinary data analyst who loves cleaning, diving into, and unraveling data mysteries.  When I am not working on code- <br>  I love to sit in front of my fireplace while I knit, read, and spend time with my six rescue dogs!  In the warmer weather I enjoy going on naturalist hikes. My life philosophy is <strong>'Live Hygge!' </strong><em>(Live Cozy!)</em>
 <p><strong>Degrees & Specializations:</strong></p>
@@ -47,7 +47,7 @@ feature_row:
   <li>Languages- R, SQL</li>
   <li>Tools- Spreadsheets, Excel, RStudio, BigQuery, Tableau</li>
 </ul>
-<p><br><br></p>
+<p><br></p>
 
 <h1 style="text-align: center;">Services</h1>
 {% include feature_row %}
