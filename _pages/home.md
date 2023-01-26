@@ -5,7 +5,7 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/nahima-aparicio-6XO0GBDeAZs-unsplash.jpg
+  overlay_image: /assets/images/olliss-7mJj0Boa4jc-unsplash.jpg
   actions: 
     - label: "Learn More"
       url: "/about/" 
