@@ -35,17 +35,17 @@ feature_row:
 
 ![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/hjkissinger-pic_400x500.jpg){: .align-right}
 
-<p><br>Hi, my name is Hannah J. Kissinger!  I am an interdisciplinary data analyst who loves cleaning, diving into, and unraveling data mysteries.  When I am not working on code- <br>  I love to sit in front of my fireplace while I knit, read, and spend time with my six rescue dogs!  My life philosophy is <strong>'Live Hygge!' </strong><em>(Live Cozy!)<em>
-<p><strong>What I use for my projects:</strong></p>
-<ul>
-  <li>Tools- Spreadsheets, Excel, RStudio, BigQuery, Tableau</li>
-  <li>Languages- R, SQL</li>
-</ul>
-<p><strong>Degrees:</strong></p>
+<p><br>Hi, my name is Hannah J. Kissinger!  I am an interdisciplinary data analyst who loves cleaning, diving into, and unraveling data mysteries.  When I am not working on code- <br>  I love to sit in front of my fireplace while I knit, read, and spend time with my six rescue dogs!  In the warmer weather I enjoy going on naturalist hikes. My life philosophy is <strong>'Live Hygge!' </strong><em>(Live Cozy!)</em>
+<p><strong>Degrees & Specializations:</strong></p>
 <ul>
   <li>BS: Biomedical Science | Chemistry | Microbiology</li>
   <li>MHS: Medical Laboratory Science | Microbiology</li>
   <li>MBA: Business analytics</li>
+</ul>
+<p><strong>What I use for my projects:</strong></p>
+<ul>
+  <li>Languages- R, SQL</li>
+  <li>Tools- Spreadsheets, Excel, RStudio, BigQuery, Tableau</li>
 </ul>
 <p><br><br></p>
 
