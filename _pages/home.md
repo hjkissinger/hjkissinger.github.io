@@ -16,6 +16,9 @@ feature_row:
     alt: "Ocean with microplastic litter and fish"
     title: "Microplastics"
     #excerpt: "Placeholder for microplastic project"
+    url: "/blog/"
+    btn_label: "Read More" 
+    btn_class: "btn--inverse"
   - image_path: /assets/images/annie-spratt-PJNZiu7FULA-unsplash_c.jpg
     alt: "Farmers market stands with fruits"
     title: "Farmer's Market"
@@ -26,5 +29,9 @@ feature_row:
   - image_path: /assets/images/aaron-burden-2xhOYKK-jAM-unsplash_c.jpg
     title: "Bee Microbiome"
     #excerpt: "Placeholder for bee project"
+    url: "/blog/"
+    btn_label: "Read More" 
+    btn_class: "btn--inverse"
 ---
+<h2> Featured Blogs </h2>
 {% include feature_row %}
