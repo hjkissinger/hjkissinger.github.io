@@ -35,9 +35,9 @@ feature_row:
 
 ![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/hjkissinger-pic_400x500.jpg){: .align-right}
 
-<p><br>Hi, my name is Hannah J. Kissinger! I am an interdisciplinary data analyst who loves cleaning, diving into, and unraveling data mysteries. When I am not working on code- I love to sit in front of my fireplace while I knit, read, and spend time with my six rescue dogs!<br> 
-<br>My life philosophy is <strong>'Live Hygge!' </strong><em>(Live Cozy!)<em><br>
-<br><em><strong>What I use for my projects:</strong></em></p>
+<p><br>Hi, my name is Hannah J. Kissinger! I am an interdisciplinary data analyst who loves cleaning, diving into, and unraveling data mysteries. When I am not working on code- <br> I love to sit in front of my fireplace while I knit, read, and spend time with my six rescue dogs!<br></p> 
+<p style = "text-align: center;"><br>My life philosophy is <strong>'Live Hygge!' </strong><em>(Live Cozy!)<em><br></p>
+<p><br><em><strong>What I use for my projects:</strong></em></p>
 <ul>
   <li>Tools- Spreadsheets, Excel, RStudio, BigQuery, Tableau</li>
   <li>Languages- R, SQL</li>
