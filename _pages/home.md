@@ -10,7 +10,6 @@ header:
     - label: "Learn More"
       url: "/about/" 
 
----
 feature_row:
   - image_path: /assets/images/naja-bertolt-jensen-BJUoZu0mpt0-unsplash.jpg
     alt: "Ocean with microplastic litter and fish"
@@ -26,3 +25,5 @@ feature_row:
   - image_path: /assets/images/aaron-burden-2xhOYKK-jAM-unsplash.jpg
     title: "Bee Project"
     excerpt: "Placeholder for bee project"
+---
+{% include feature_row %}
