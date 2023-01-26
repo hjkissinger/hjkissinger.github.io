@@ -12,7 +12,7 @@ header:
       url: "/about/" 
 
 feature_row:
-  - image_path: /assets/images/naja-bertolt-jensen-GncNA7EKS8U-unsplash_c.jpg
+  - image_path: /assets/images/ishan-seefromthesky-4xmgrNUbyNA-unsplash_c.jpg
     alt: "Ocean with microplastic litter and fish"
     title: "Microplastics"
     #excerpt: "Placeholder for microplastic project"
