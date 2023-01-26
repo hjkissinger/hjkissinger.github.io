@@ -42,7 +42,7 @@ feature_row:
   <li>MHS: Medical Laboratory Science | Microbiology</li>
   <li>MBA: Business analytics</li>
 </ul>
-<p><strong>What I use for my projects:</strong></p>
+<p><strong>Data Analyst Toolkit:</strong></p>
 <ul>
   <li>Languages- R, SQL</li>
   <li>Tools- Spreadsheets, Excel, RStudio, BigQuery, Tableau</li>
