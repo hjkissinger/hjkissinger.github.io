@@ -60,9 +60,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Hannah Kissinger"
+  name   : "Hannah J. Kissinger"
   avatar : "/assets/images/hjkissinger-pic.jpg"
-  bio    : "<p> Data Diver <br> Microbiologist <br> Crafting Enthusiast</p>"
+  bio    : "Data, microbiology, and crafting enthusiast"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
