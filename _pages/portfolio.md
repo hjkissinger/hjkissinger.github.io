@@ -2,7 +2,6 @@
 title:  "Portfolio"
 layout: splash
 permalink: /portfolio/
-author_profile: true
 comments: true
 header:
   overlay_color: "#5e616c"
@@ -12,4 +11,6 @@ header:
 ---
 
 This is my portfolio page.
+
+Interested in learning more or collaborating? Let's connect!
 
