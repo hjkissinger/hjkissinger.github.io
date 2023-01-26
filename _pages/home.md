@@ -5,7 +5,7 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/kari-shea-1SAnrIxw5OY-unsplash.jpg
+  overlay_image: /assets/images/rachel-moenning-zjxYwd4HOu0-unsplash.jpg
   actions: 
     - label: "Learn More"
       url: "/about/" 
