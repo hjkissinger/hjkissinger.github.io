@@ -32,27 +32,23 @@ feature_row:
     btn_label: "Example" 
     btn_class: "btn--inverse"
 ---
-<h1 style="text-align: center;">About</h1>
 
 ![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/hjkissinger-pic_400x500.jpg){: .align-right}
 
-<p>Hi, my name is Hannah J. Kissinger! <br> I am an interdisciplinary data analyst who loves cleaning, diving into, and unraveling data mysteries. When I am not working on code- I love to knit, read, and spend time with my six rescue dogs!<br> 
+<p>Hi, my name is Hannah J. Kissinger! I am an interdisciplinary data analyst who loves cleaning, diving into, and unraveling data mysteries. When I am not working on code- I love to knit, read, and spend time with my six rescue dogs!<br> 
 <br>
-My life philosophy is <strong>'Live Hygge!' (Live Cozy!)</strong>
+My life philosophy is <strong>'Live Hygge!'</strong>(Live Cozy!)
 <br>
-<em><strong>What I use for my projects:</strong></em>
-<br>
+<em><strong>What I use for my projects:</strong></em></p>
 <ul>
   <li>Tools- Spreadsheets, Excel, RStudio, BigQuery, Tableau</li>
   <li>Languages- R, SQL</li>
 </ul>
-<br>
-<em><strong>Degree specializations:</strong></em>
-<br>
+<p><br><em><strong>Degree specializations:</strong></em></p>
 <ul>
   <li>BS & MHS: Health sciences | Chemistry | Microbiology</li>
   <li>MBA: Business analytics</li>
-</p>
+</ul>
 
 <h1 style="text-align: center;">Services</h1>
 {% include feature_row %}
