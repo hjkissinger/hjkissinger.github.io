@@ -20,7 +20,7 @@ gallery:
   - url: /assets/images/alexander-grey-62vi3TG5EDg-unsplash.jpg
     image_path: /assets/images/alexander-grey-62vi3TG5EDg-unsplash.jpg
     alt: "placeholder image 3"
-    title: "Image 3 title caption"
+    title: "[Image 3 title caption](https://hjkissinger.github.io/blog/)"
 ---
 
 {% include gallery caption="" %}
