@@ -40,5 +40,8 @@ gallery:
 
 <h5 style="text-align: center;">Interested in learning more or collaborating? <em>Let's connect!</em></h5>
 
-<p>[GitHub](#https://github.com/hjkissinger){: .btn .btn--primary}[LinkedIn](#https://www.linkedin.com/in/hannah-j-kissinger-854403116/){: .btn .btn--info}[Blog](#https://hjkissinger.github.io/blog/){: .btn .btn--inverse}</p>
+<a href="https://github.com/hjkissinger" class="btn btn--inverse .btn--large" >GitHub</a>
+<a href="https://www.linkedin.com/in/hannah-j-kissinger-854403116/" class="btn btn--inverse .btn--large">LinkedIn</a>
+<a href="https://public.tableau.com/app/profile/hannah.kissinger6750" class="btn btn--inverse .btn--large">Tableau</a>
+<a href="https://hjkissinger.github.io/blog/" class="btn btn--inverse .btn--large">Blog</a>
 
