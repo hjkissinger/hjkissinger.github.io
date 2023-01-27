@@ -12,7 +12,13 @@ header:
 
 ---
 
+{% include base_path %}
 
+<div class="grid__wrapper">
+  {% for post in site.portfolio %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
 
 <h5 style="text-align: center;">Interested in learning more or collaborating? <em>Let's connect!</em></h5>
 
