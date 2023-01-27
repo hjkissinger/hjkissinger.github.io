@@ -40,3 +40,5 @@ gallery:
 
 <h5 style="text-align: center;">Interested in learning more or collaborating? <em>Let's connect!</em></h5>
 
+<p style="text-align: center;">[GitHub](#https://github.com/hjkissinger){: .btn .btn--primary}[LinkedIn](#https://www.linkedin.com/in/hannah-j-kissinger-854403116/){: .btn .btn--info}[Blog](#https://hjkissinger.github.io/blog/){: .btn .btn--inverse}</p>
+
