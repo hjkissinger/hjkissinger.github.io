@@ -62,7 +62,7 @@ plugins:
 author:
   name   : "Hannah J. Kissinger"
   avatar : "/assets/images/hjkissinger-pic.jpg"
-  bio    : "<em>Data analyst, scientist, and hygge enthusiast.</em>"
+  bio    : "<em>Data, science, and hygge enthusiast.</em>"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
