@@ -25,5 +25,5 @@ gallery:
 
 {% include gallery caption="" %}
 
-<h3 style="text-align: center;">Interested in learning more or collaborating? <em>Let's connect!</em></h3>
+<h4 style="text-align: center;">Interested in learning more or collaborating? <em>Let's connect!</em></h4>
 
