@@ -50,7 +50,7 @@ feature_row:
     </ul>
   <li>University of North Dakota, MBA</li>
     <ul>
-      <li>Business analytics</li>
+      <li>Business Analytics</li>
     </ul>
 </ul>
 <p><strong>Data Analyst Toolkit:</strong></p>
