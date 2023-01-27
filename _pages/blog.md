@@ -3,6 +3,7 @@ title:  "Blog"
 layout: archive
 permalink: /blog/
 entries_layout: grid
+classes: wide
 author_profile: true
 comments: true
 header:
