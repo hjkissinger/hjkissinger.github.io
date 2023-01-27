@@ -1,9 +1,9 @@
 ---
 title:  "Blog"
-layout: archive
+layout: collection
 permalink: /blog/
 entries_layout: grid
-classes: wide
+collection: portfolio
 author_profile: true
 comments: true
 header:
