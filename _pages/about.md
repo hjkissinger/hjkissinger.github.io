@@ -1,9 +1,10 @@
 ---
 permalink: /about/
 title: "About"
-layout: splash
+layout: single
 permalink: /about/
 hidden: true
+classes: wide
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/oksana-maselko-tkuUS11XyaA-unsplash.jpg
