@@ -1,6 +1,6 @@
 ---
 header:
-  teaser: "assets/images/ishan-seefromthesky-4xmgrNUbyNA-unsplash_200ht.jpg"
+  teaser: "assets/images/ishan-seefromthesky-4xmgrNUbyNA-unsplash_teaser.jpg"
 
 ---
 
