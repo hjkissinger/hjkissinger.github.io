@@ -38,15 +38,15 @@ feature_row:
 <p><br>Hi, my name is Hannah J. Kissinger!  I am an interdisciplinary data analyst who loves cleaning, diving into, and unraveling data mysteries.  When I am not working on code- I love to sit in front of my fireplace while I knit, read, and spend time with my six rescue dogs!  In the warmer weather, I enjoy going on naturalist hikes. My life philosophy is <strong>'Live Hygge!' </strong><em>(Live Cozy!)</em>
 <p><strong>Degrees & Specializations:</strong></p>
 <ul>
-  <li>Quinnipiac University, BS<li>
+  <li>Quinnipiac University, BS</li>
   <ul>
     <li>Biomedical Science | Chemistry | Microbiology</li>
   </ul>
-  <li>Quinnipiac University, MHS
+  <li>Quinnipiac University, MHS</li>
   <ul>
     <li>Medical Laboratory Science | Microbiology</li>
     </ul>
-  <li>University of North Dakota, MBA
+  <li>University of North Dakota, MBA</li>
     <ul>
       <li>Business analytics</li>
     </ul>
