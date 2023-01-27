@@ -1,6 +1,6 @@
 ---
 title:  "Blog"
-layout: categories
+layout: archive
 permalink: /blog/
 entries_layout: grid
 author_profile: true
