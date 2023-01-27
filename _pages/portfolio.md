@@ -23,7 +23,5 @@ gallery:
     title: "Image 3 title caption"
 ---
 
-{% include gallery caption="<strong>Visualizations<strong>" %}
-
 <p style="text-align: center;">Interested in learning more or collaborating? <em>Let's connect!</em></p>
 
