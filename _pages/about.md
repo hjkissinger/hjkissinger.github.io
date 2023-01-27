@@ -55,7 +55,7 @@ feature_row:
 </ul>
 <p><strong>Data Analyst Toolkit:</strong></p>
 <ul>
-  <li>Languages- R, SQL, Bash</li>
+  <li>Programming Languages- R, SQL, Bash</li>
   <li>Tools- Spreadsheets, Excel, RStudio, BigQuery, Tableau</li>
 </ul>
 <p><br><br></p>
