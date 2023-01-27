@@ -33,9 +33,10 @@ feature_row:
     btn_class: "btn--inverse"
 ---
 
-![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/hjkissinger-pic_450x580.jpg){: .align-right}
-
 <p><br>Hi, my name is Hannah J. Kissinger!  I am an interdisciplinary data analyst who loves cleaning, diving into, and unraveling data mysteries.  When I am not working on code- I love to sit in front of my fireplace while I knit, read, and spend time with my six rescue dogs!  In the warmer weather, I enjoy going on naturalist hikes. My life philosophy is <strong>'Live Hygge!' </strong><em>(Live Cozy!)</em>
+  
+![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/hjkissinger-pic_450x580.jpg){: .align-right}
+  
 <p><strong>Degrees & Specializations:</strong></p>
 <ul>
   <li>Quinnipiac University, BS</li>
@@ -51,10 +52,9 @@ feature_row:
       <li>Business analytics</li>
     </ul>
 </ul>
-</ul>
 <p><strong>Data Analyst Toolkit:</strong></p>
 <ul>
-  <li>Languages- R, SQL</li>
+  <li>Languages- R, SQL, Bash</li>
   <li>Tools- Spreadsheets, Excel, RStudio, BigQuery, Tableau</li>
 </ul>
 <p><br><br></p>
