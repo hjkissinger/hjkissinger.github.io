@@ -41,7 +41,7 @@ feature_row:
 <br><br>
 The goal of my projects is to make data-derived insights simple, yet compelling for stakeholders. My data-analyst toolkit includes the programming languages, <em>R and SQL</em>, as well as the tools, <em>Spreadsheets, Excel, RStudio, BigQuery, and Tableau.</em> <strong>I believe that knowledge generated from data has the power to protect people and the planet, driving change through informed solutions.</strong>
 <br><br>
-When I am not working on code- I love to sit in front of my fireplace while I knit and spend time with my six rescue dogs!  In the warmer weather, I enjoy going on naturalist hikes to identify flora and fauna. My life philosophy is <strong>'Live Hygge!' </strong><em>(Live Cozy!)</em>
+When I am not working on code- I love to sit in front of my fireplace while I knit and spend time with my six rescue dogs!  In the warmer weather, I enjoy going on naturalist hikes to identify flora and fauna. <strong>My life philosophy is 'Live Hygge!' </strong><em>(Live Cozy!)</em>
 
 <p><strong>Degrees & Specializations:</strong></p>
 <ul>
