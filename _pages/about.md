@@ -54,7 +54,7 @@ When I am not working on code, I love to sit in front of my fireplace while I kn
   <li><em>Programming Languages:</em> R, SQL</li>
   <li><em>Tools:</em> Spreadsheets, Excel, RStudio, BigQuery, Tableau</li>
 </ul>
-<p><br><br></p>
+<p><br></p>
 
 <h1 style="text-align: center;">Services</h1>
 {% include feature_row %}
