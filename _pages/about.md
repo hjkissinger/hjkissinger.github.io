@@ -45,14 +45,14 @@ When I am not working on code, I love to sit in front of my fireplace while I kn
 
 <p><strong>Degrees & Specializations:</strong></p>
 <ul>
-  <li>Quinnipiac University, BS: Biomedical Science | Chemistry | Microbiology</li>
-  <li>Quinnipiac University, MHS: Medical Laboratory Science | Microbiology</li>
-  <li>University of North Dakota, MBA</li>Business Analytics</li>
+  <li><em>Quinnipiac University, BS:</em> Biomedical Science | Chemistry | Microbiology</li>
+  <li><em>Quinnipiac University, MHS:</em> Medical Laboratory Science | Microbiology</li>
+  <li><em>University of North Dakota, MBA:</em> Business Analytics</li>
 </ul><br>
 <p><strong>Data Analyst Toolkit:</strong></p>
 <ul>
-  <li>Programming Languages- R, SQL</li>
-  <li>Tools- Spreadsheets, Excel, RStudio, BigQuery, Tableau</li>
+  <li>Programming Languages-- R, SQL</li>
+  <li>Tools-- Spreadsheets, Excel, RStudio, BigQuery, Tableau</li>
 </ul>
 <p><br><br></p>
 
