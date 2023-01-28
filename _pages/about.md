@@ -37,27 +37,18 @@ feature_row:
 
 ![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/hjkissinger-pic_250x300.jpg){: .align-right}
 
-<p>Hi, my name is Hannah J. Kissinger!  I am an interdisciplinary data analyst who loves cleaning, diving into, and unraveling data mysteries. I have <strong>five years of scientific research experience</strong>, which includes project design, data collection, hypothesis testing, analysis, and presentation. As a lifelong learner, I actively seek opportunities to grow. My two masters degrees in <em>medical laboratory sciences (MHS)</em> and <em>business administration (MBA)</em> grant me a <strong>unique perspective when solving problems at the intersection of health and business.</strong>
+<p>Hi, my name is Hannah J. Kissinger!  I am an interdisciplinary data analyst who loves cleaning and unraveling data mysteries. I have <strong>five years of scientific research experience</strong>, which includes project design, data collection, hypothesis testing, analysis, and presentation. As a lifelong learner, I actively seek opportunities to grow. My two masters' degrees in <em>medical laboratory sciences (MHS)</em> and <em>business administration (MBA)</em> grant me a <strong>unique perspective when solving problems at the intersection of health and business.</strong>
 <br><br>
-The goal of my projects is to make data-derived insights simple, yet compelling for stakeholders. My data-analyst toolkit includes the programming languages, <em>R and SQL</em>, as well as the tools, <em>Spreadsheets, Excel, RStudio, BigQuery, and Tableau.</em> <strong>I believe that knowledge generated from data has the power to protect people and the planet, driving change through informed solutions.</strong>
+The goal of my projects is to make data-derived insights simple, yet compelling for stakeholders. My data-analyst toolkit includes programming languages <em>R and SQL</em> along with tools such as <em>Spreadsheets, Excel, RStudio, BigQuery, and Tableau.</em> <strong>I believe that knowledge generated from data has the power to protect people and the planet, driving change through informed solutions.</strong>
 <br><br>
-When I am not working on code- I love to sit in front of my fireplace while I knit and spend time with my six rescue dogs!  In the warmer weather, I enjoy going on naturalist hikes to identify flora and fauna. <strong>My life philosophy is 'Live Hygge!' </strong><em>(Live Cozy!)</em>
+When I am not working on code, I love to sit in front of my fireplace while I knit and spend time with my six rescue dogs! In the warmer weather, I enjoy going on hikes to identify flora and fauna of New England. <strong>My life philosophy is 'Live Hygge!' </strong><em>(Live Cozy!)</em>
 
 <p><strong>Degrees & Specializations:</strong></p>
 <ul>
-  <li>Quinnipiac University, BS</li>
-  <ul>
-    <li>Biomedical Science | Chemistry | Microbiology</li>
-  </ul>
-  <li>Quinnipiac University, MHS</li>
-  <ul>
-    <li>Medical Laboratory Science | Microbiology</li>
-    </ul>
-  <li>University of North Dakota, MBA</li>
-    <ul>
-      <li>Business Analytics</li>
-    </ul>
-</ul>
+  <li>Quinnipiac University, BS: Biomedical Science | Chemistry | Microbiology</li>
+  <li>Quinnipiac University, MHS: Medical Laboratory Science | Microbiology</li>
+  <li>University of North Dakota, MBA</li>Business Analytics</li>
+</ul><br>
 <p><strong>Data Analyst Toolkit:</strong></p>
 <ul>
   <li>Programming Languages- R, SQL</li>
