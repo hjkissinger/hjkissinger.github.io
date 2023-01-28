@@ -37,9 +37,9 @@ feature_row:
 
 ![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/hjkissinger-pic_250x300.jpg){: .align-right}
 
-<p>Hi, my name is Hannah J. Kissinger!  I am an interdisciplinary data analyst who loves cleaning, diving into, and unraveling data mysteries. I have <strong>five years of scientific research experience</strong>, which includes project design, data collection, hypothesis testing, analysis, and presentation. Throughout my academic journey, I have sought out opportunities to learn. <em>My two masters degrees in medical laboratory sciences (MHS) and business administration (MBA)</em><strong>grant me a unique perspective when solving problems at the intersection of health and business.</strong>
+<p>Hi, my name is Hannah J. Kissinger!  I am an interdisciplinary data analyst who loves cleaning, diving into, and unraveling data mysteries. I have <strong>five years of scientific research experience</strong>, which includes project design, data collection, hypothesis testing, analysis, and presentation. Throughout my academic journey, I have sought out opportunities to learn. My two masters degrees in <em>medical laboratory sciences (MHS)</em> and <em>business administration (MBA)</em> grant me a <strong>unique perspective when solving problems at the intersection of health and business.</strong>
 <br><br>
-The goal of all my projects is to make data-derived insights simple, yet compelling for stakeholders. <strong>I believe that knowledge generated from data has the power to protect people and the planet, driving change through informed solutions.</strong>
+The goal of my projects is to make data-derived insights simple, yet compelling for stakeholders. <strong>I believe that knowledge generated from data has the power to protect people and the planet, driving change through informed solutions.</strong>
 <br><br>
 When I am not working on code- I love to sit in front of my fireplace while I knit and spend time with my six rescue dogs!  In the warmer weather, I enjoy going on naturalist hikes to identify flora and fauna. My life philosophy is <strong>'Live Hygge!' </strong><em>(Live Cozy!)</em>
 
