@@ -51,8 +51,8 @@ When I am not working on code, I love to sit in front of my fireplace while I kn
 </ul><br>
 <p><strong>Data Analyst Toolkit:</strong></p>
 <ul>
-  <li>Programming Languages-- R, SQL</li>
-  <li>Tools-- Spreadsheets, Excel, RStudio, BigQuery, Tableau</li>
+  <li>Programming Languages: R, SQL</li>
+  <li>Tools: Spreadsheets, Excel, RStudio, BigQuery, Tableau</li>
 </ul>
 <p><br><br></p>
 
