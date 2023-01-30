@@ -14,7 +14,7 @@ feature_row0-1:
   - image_path: /assets/images/ishan-seefromthesky-4xmgrNUbyNA-unsplash_teaser.jpg
     alt: "teaser image"
     title: "Microplastics"
-    text: "Text goes here"
+    excerpt: "Text goes here"
     url: "https://github.com/hjkissinger"
     btn_label: "Code"
     btn_class: "btn--inverse"
@@ -28,7 +28,7 @@ feature_row0-2:
   - image_path: /assets/images/ishan-seefromthesky-4xmgrNUbyNA-unsplash_teaser.jpg
     alt: "teaser image"
     title: "Microplastics"
-    text: "Text goes here"
+    excerpt: "Text goes here"
     tags:
         - demo
 
@@ -36,7 +36,7 @@ feature_row0-3:
   - image_path: /assets/images/ishan-seefromthesky-4xmgrNUbyNA-unsplash_teaser.jpg
     alt: "teaser image"
     title: "Microplastics"
-    text: "Text goes here"
+    excerpt: "Text goes here"
     tags:
         - demo
 
@@ -44,7 +44,7 @@ feature_row0-4:
   - image_path: /assets/images/ishan-seefromthesky-4xmgrNUbyNA-unsplash_teaser.jpg
     alt: "teaser image"
     title: "Microplastics"
-    text: "Text goes here"
+    excerpt: "Text goes here"
     tags:
         - demo
 
@@ -52,7 +52,7 @@ feature_row2:
   - image_path: /assets/images/ishan-seefromthesky-4xmgrNUbyNA-unsplash_teaser.jpg
     alt: "teaser image"
     title: "Microplastics"
-    text: "Text goes here"
+    excerpt: "Text goes here"
     tags:
         - demo
 
