@@ -19,10 +19,10 @@ feature_row0-1:
     btn_label: "Code"
     btn_class: "btn--inverse"
     url2: "https://github.com/hjkissinger"
-    btn_label2: "Tableau"
+    btn_label: "Tableau"
     btn_class: "btn--inverse"    
     tags:
-      - demo
+        - Demo
 
 feature_row0-2:
   - image_path: /assets/images/ishan-seefromthesky-4xmgrNUbyNA-unsplash_teaser.jpg
