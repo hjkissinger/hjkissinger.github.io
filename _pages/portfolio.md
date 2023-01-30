@@ -71,7 +71,7 @@ feature_row2:
 {% include feature_row id="feature_row2" type="left" %}
 
 <h5 style="text-align: center;">Interested in learning more about my projects?</h5>
-<center><a href="https://hjkissinger.github.io/portfolio/" class="btn btn--inverse .btn--x-large">Portfolio</a>
+<center><a href="https://hjkissinger.github.io/about/" class="btn btn--inverse .btn--x-large">About</a>
 <a href="https://hjkissinger.github.io/gallery/" class="btn btn--inverse .btn--x-large" >Gallery</a>
 <a href="https://hjkissinger.github.io/articles" class="btn btn--inverse .btn--x-large">Articles</a></center>
 
