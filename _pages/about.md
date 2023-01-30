@@ -59,6 +59,11 @@ When I am not working on code, I love to sit in front of my fireplace while I kn
 <h1 style="text-align: center;">Services</h1>
 {% include feature_row %}
 
+<h5 style="text-align: center;">Interested in learning more?</h5>
+<center><a href="https://hjkissinger.github.io/portfolio/" class="btn btn--inverse .btn--x-large">Articles</a>
+<a href="https://hjkissinger.github.io/gallery/" class="btn btn--inverse .btn--x-large" >Gallery</a>
+<a href="https://hjkissinger.github.io/articles" class="btn btn--inverse .btn--x-large">Articles</a></center>
+
 <h5 style="text-align: center;">Interested in learning more or collaborating? <em>Let's connect!</em></h5>
 <center><a href="https://hjkissinger.github.io/articles/" class="btn btn--inverse .btn--x-large">Articles</a>
 <a href="https://github.com/hjkissinger/" class="btn btn--inverse .btn--x-large" >GitHub</a>
