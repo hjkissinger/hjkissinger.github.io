@@ -1,6 +1,6 @@
 ---
 title:  "Portfolio"
-layout: splash
+layout: single
 permalink: /portfolio/
 classes: wide
 author_profile: true
