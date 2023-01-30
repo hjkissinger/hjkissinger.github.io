@@ -18,8 +18,8 @@ feature_row0-1:
     url: "https://github.com/hjkissinger"
     btn_label: "Code"
     btn_class: "btn--inverse"
-    url2: "https://github.com/hjkissinger"
-    btn_label2: "Tableau"
+    url2: "https://hjkissinger.github.io/My-First-Post4/"
+    btn_label2: "Article"
     btn_class: "btn--inverse"    
     tags:
         - Demo
