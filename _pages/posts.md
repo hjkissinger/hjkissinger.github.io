@@ -1,6 +1,6 @@
 ---
-title:  "posts"
-layout: single
+title:  "Posts"
+layout: pages
 permalink: /posts/
 classes: wide
 author_profile: true
