@@ -3,10 +3,10 @@ main:
     url: /
   - title: "About"
     url: /about/
-  - title: "Gallery"
-    url: /gallery/
   - title: "Portfolio"
     url: /portfolio/
+  - title: "Gallery"
+    url: /gallery/
   - title: "Blog"
     url: /blog/
   - title: Archive
