@@ -15,14 +15,14 @@ feature_row:
     alt: "Data processing"
     title: "Data Processing"
     excerpt: "Coming Soon"
-    url: "/blog/"
+    url: "/posts/"
     btn_label: "Data Cleaning Post" 
     btn_class: "btn--inverse"
   - image_path: /assets/images/dawid-liberadzki-vPFbVB7DPZI-unsplash.jpg
     alt: "Data Analytics"
     title: "Data Analytics"
     excerpt: "Coming Soon"
-    url: "/blog/"
+    url: "/posts/"
     btn_label: "Data Analytics Post" 
     btn_class: "btn--inverse"
   - image_path: /assets/images/edward-howell-VlTJdP8ZY1c-unsplash.jpg
@@ -60,7 +60,7 @@ When I am not working on code, I love to sit in front of my fireplace while I kn
 {% include feature_row %}
 
 <h5 style="text-align: center;">Interested in learning more or collaborating? <em>Let's connect!</em></h5>
-<center><a href="https://hjkissinger.github.io/blog/" class="btn btn--inverse .btn--x-large">Blog</a>
+<center><a href="https://hjkissinger.github.io/posts/" class="btn btn--inverse .btn--x-large">Blog</a>
 <a href="https://github.com/hjkissinger/" class="btn btn--inverse .btn--x-large" >GitHub</a>
 <a href="https://public.tableau.com/app/profile/hannah.kissinger6750" class="btn btn--inverse .btn--x-large">Tableau</a>
 <a href="https://www.linkedin.com/in/hannah-j-kissinger-854403116/" class="btn btn--inverse .btn--x-large">LinkedIn</a></center>
