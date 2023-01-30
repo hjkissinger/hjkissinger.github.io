@@ -70,8 +70,8 @@ feature_row2:
 <a name="Microplastics"></a>
 {% include feature_row id="feature_row2" type="left" %}
 
-<h5 style="text-align: center;">Interested in learning more or collaborating? <em>Let's connect!</em></h5>
-<center><a href="https://hjkissinger.github.io/articles/" class="btn btn--inverse .btn--x-large">Articles</a>
-<a href="https://github.com/hjkissinger/" class="btn btn--inverse .btn--x-large" >GitHub</a>
-<a href="https://public.tableau.com/app/profile/hannah.kissinger6750" class="btn btn--inverse .btn--x-large">Tableau</a>
-<a href="https://www.linkedin.com/in/hannah-j-kissinger-854403116/" class="btn btn--inverse .btn--x-large">LinkedIn</a></center>
+<h5 style="text-align: center;">Interested in learning more about my projects?</h5>
+<center><a href="https://hjkissinger.github.io/portfolio/" class="btn btn--inverse .btn--x-large">Portfolio</a>
+<a href="https://hjkissinger.github.io/gallery/" class="btn btn--inverse .btn--x-large" >Gallery</a>
+<a href="https://hjkissinger.github.io/articles" class="btn btn--inverse .btn--x-large">Articles</a></center>
+
