@@ -11,5 +11,5 @@ header:
   image_description: "Picture of a pile of yarn skeins with the words: Articles."
 ---
 
-### Posts by <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i>  Tags [here](/tags)
+### Articles by <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i>  Tags [here](/tags)
 
