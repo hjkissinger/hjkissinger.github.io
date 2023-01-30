@@ -19,7 +19,7 @@ feature_row0-1:
     btn_label: "Code"
     btn_class: "btn--inverse"
     url2: "https://github.com/hjkissinger"
-    btn_label: "Tableau"
+    btn_label2: "Tableau"
     btn_class: "btn--inverse"    
     tags:
         - Demo
