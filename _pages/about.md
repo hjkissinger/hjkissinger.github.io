@@ -16,14 +16,14 @@ feature_row:
     title: "Data Processing"
     excerpt: "Coming Soon"
     url: "/posts/"
-    btn_label: "Data Cleaning Post" 
+    btn_label: "Post" 
     btn_class: "btn--inverse"
   - image_path: /assets/images/dawid-liberadzki-vPFbVB7DPZI-unsplash.jpg
     alt: "Data Analytics"
     title: "Data Analytics"
     excerpt: "Coming Soon"
     url: "/posts/"
-    btn_label: "Data Analytics Post" 
+    btn_label: "Post" 
     btn_class: "btn--inverse"
   - image_path: /assets/images/edward-howell-VlTJdP8ZY1c-unsplash.jpg
     alt: "Data Visualization"
