@@ -38,7 +38,7 @@ gallery:
 {% include gallery caption="" %}
 
 <h5 style="text-align: center;">Interested in learning more about my projects?</h5>
-<center><a href="https://hjkissinger.github.io/portfolio/" class="btn btn--inverse .btn--x-large">Portfolio</a>
-<a href="https://hjkissinger.github.io/gallery/" class="btn btn--inverse .btn--x-large" >Gallery</a>
+<center><a href="https://hjkissinger.github.io/about/" class="btn btn--inverse .btn--x-large">About</a>
+<a href="https://hjkissinger.github.io/portfolio/" class="btn btn--inverse .btn--x-large" >Portfolio</a>
 <a href="https://hjkissinger.github.io/articles" class="btn btn--inverse .btn--x-large">Articles</a></center>
 
