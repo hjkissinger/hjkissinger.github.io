@@ -15,6 +15,12 @@ feature_row0-1:
     alt: "teaser image"
     title: "Microplastics"
     text: "Text goes here"
+    url: "https://github.com/hjkissinger"
+    btn_label: "Code"
+    btn_class: "btn--inverse"
+    url2: "https://github.com/hjkissinger"
+    btn_label2: "Tableau"
+    btn_class: "btn--inverse"    
     tags:
       - demo
 
@@ -24,7 +30,7 @@ feature_row0-2:
     title: "Microplastics"
     text: "Text goes here"
     tags:
-      - demo
+        - demo
 
 feature_row0-3:
   - image_path: /assets/images/ishan-seefromthesky-4xmgrNUbyNA-unsplash_teaser.jpg
@@ -32,7 +38,7 @@ feature_row0-3:
     title: "Microplastics"
     text: "Text goes here"
     tags:
-      - demo
+        - demo
 
 feature_row0-4:
   - image_path: /assets/images/ishan-seefromthesky-4xmgrNUbyNA-unsplash_teaser.jpg
@@ -40,7 +46,7 @@ feature_row0-4:
     title: "Microplastics"
     text: "Text goes here"
     tags:
-      - demo
+        - demo
 
 feature_row2:
   - image_path: /assets/images/ishan-seefromthesky-4xmgrNUbyNA-unsplash_teaser.jpg
@@ -48,10 +54,18 @@ feature_row2:
     title: "Microplastics"
     text: "Text goes here"
     tags:
-      - demo
+        - demo
 
 ---
 
-This is my blog page.
 
-{% include feature_row id="feature_row0-1" type="left" %} {% include feature_row id="feature_row0-2" type="left" %} {% include feature_row id="feature_row0-3" type="left" %} {% include feature_row id="feature_row0-4" type="left" %} {% include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="feature_row0-1" type="left" %}
+<a name="Microplastics"></a>
+{% include feature_row id="feature_row0-2" type="left" %}
+<a name="Microplastics"></a>
+{% include feature_row id="feature_row0-3" type="left" %}
+<a name="Microplastics"></a>
+{% include feature_row id="feature_row0-4" type="left" %}
+<a name="Microplastics"></a>
+<a name="Microplastics"></a>
+{% include feature_row id="feature_row2" type="left" %}
