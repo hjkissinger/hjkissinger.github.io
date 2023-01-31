@@ -11,7 +11,7 @@
 
 [<img align="left" alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />][linkedin]
 
-[<img align="left" alt="LinkedIn" src="https://img.shields.io/github/followers/:hjkissinger?label=Follow" />]
+[<img align="left" alt="Github follow" src="https://img.shields.io/github/followers/:hjkissinger?label=Follow" />]
 
 
 <a href="https://public.tableau.com/app/profile/hannah.kissinger6750" class="btn btn--inverse .btn--x-large">Tableau</a>
