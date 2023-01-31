@@ -1,8 +1,6 @@
 ## Hello! My name is Hannah J. Kissinger. :woman_technologist:
 
-### This is a GitHub Repository for my <a href="https://hjkissinger.github.io/">Portfolio Website</a>.
-
-### I'm an interdisciplinary data analyst who loves data, science, and all things hygge! *(cozy!)* :computer: :dna: :yarn:
+### This is a GitHub Repository for my <a href="https://hjkissinger.github.io/">Portfolio Website</a>. I'm an interdisciplinary data analyst who loves data, science, and all things hygge! *(cozy!)* :computer: :dna: :yarn:
 
 ### Want to learn more about my projects or collaborate?
 
