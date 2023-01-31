@@ -61,14 +61,14 @@ feature_row2:
 
 {% include feature_row id="feature_row0-1" type="left" %}
 <a name="Microplastics"></a>
-<!--{% include feature_row id="feature_row0-2" type="left" %}
+<!--- {% include feature_row id="feature_row0-2" type="left" %}
 <a name="Microplastics"></a>
 {% include feature_row id="feature_row0-3" type="left" %}
 <a name="Microplastics"></a>
 {% include feature_row id="feature_row0-4" type="left" %}
 <a name="Microplastics"></a>
 <a name="Microplastics"></a>
-{% include feature_row id="feature_row2" type="left" %}-->
+{% include feature_row id="feature_row2" type="left" %} --->
 
 <h5 style="text-align: center;">Interested in learning more about my projects?</h5>
 <center><a href="https://hjkissinger.github.io/about/" class="btn btn--inverse .btn--x-large">About</a>
