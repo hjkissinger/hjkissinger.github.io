@@ -3,11 +3,11 @@
 #### I'm an interdisciplinary data analyst who loves data, science, and all things hygge! *(cozy!)* 
 :computer: :dna: :yarn:
 
-#####- Degrees & Specializations: 
+- Degrees & Specializations: 
   - *Quinnipiac University, BS:* Biomedical Sciences (chemistry & microbiology)
   - *Quinnipiac Univeristy, MHS:* Medical Laboratory Sciences (health & environmental)
   - *University of North Dakota, MBA:* Business Administration (business analytics)
-#####- Data Analyst Toolkit:
+- Data Analyst Toolkit:
   - *Programming Languages:* R, SQL
   - *Tools:* Spreadsheets, Excel, RStudio, BigQuery, Tableau
 
