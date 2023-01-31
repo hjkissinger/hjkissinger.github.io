@@ -1,8 +1,9 @@
 ### Hello! My name is Hannah J. Kissinger. This is a GitHub Repository for my <a href="https://hjkissinger.github.io/">Portfolio Website</a>.
 
-### I'm an interdisciplinary data analyst who loves data, science, and all things hygge! *(cozy!)* :computer: :dna: :yarn: 
+#### I'm an interdisciplinary data analyst who loves data, science, and all things hygge! *(cozy!)* :computer: :dna: :yarn: 
 
-
+- Specializations: Biomedical Sciences, Microbiology *(environmental & health)*, Business Administration, and Business Analytics
+- 
 
 
 <h4><center>Interested in learning more or collaborating? <em>Let's connect!</em></h4></center>
