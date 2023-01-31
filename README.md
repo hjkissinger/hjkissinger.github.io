@@ -9,12 +9,16 @@
 
 ### Want to learn more about my projects or collaborate?
 
+[<img align="left" alt="LinkedIn" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />][github]
 [<img align="left" alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />][linkedin]
-[<img align="left" alt="Tableau" src="https://img.shields.io/badge/-Tableau-orange?style=for-the-badge&logo=tableau&logoColor=white" />][Tableau]
+[<img align="left" alt="Tableau" src="https://img.shields.io/badge/-Tableau-orange?style=for-the-badge&logo=tableau&logoColor=white" />][tableau]
+[<img align="left" alt="Tableau" src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white" />][website]
 
 
 
 
 
+[github]: https://github.com/hjkissinger
 [linkedin]: https://www.linkedin.com/in/](https://www.linkedin.com/in/hannah-j-kissinger-854403116/)
-[Tableau]: https://public.tableau.com/app/profile/hannah.kissinger6750
+[tableau]: https://public.tableau.com/app/profile/hannah.kissinger6750
+[website]: https://hjkissinger.github.io/
