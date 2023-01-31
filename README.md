@@ -4,7 +4,7 @@
 
 - Degrees & Specializations: 
   - *Quinnipiac University, BS:* Biomedical Sciences (chemistry & microbiology)
-  - *Quinnipiac Univeristy, MHS:* Medical Laboratory Sciences (health & environmental)
+  - *Quinnipiac Univeristy, MHS:* Medical Laboratory Sciences (health & environmental microbiology)
   - *University of North Dakota, MBA:* Business Administration (business analytics)
 - Data Analyst Toolkit:
   - *Programming Languages:* R, SQL
