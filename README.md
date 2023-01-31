@@ -1,4 +1,4 @@
-## Hello! My name is Hannah J. Kissinger. :woman_technologist: <div align = 'right'![](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F{username}1212%2Fhit-counter)</div>
+## Hello! My name is Hannah J. Kissinger. :woman_technologist: [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgjbae1212%2Fhit-counter&count_bg=%23A384AC&title_bg=%23626682&icon=&icon_color=%23E7E7E7&title=Hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 ### This is a GitHub Repository for my <a href="https://hjkissinger.github.io/">Portfolio Website</a>. 
 
