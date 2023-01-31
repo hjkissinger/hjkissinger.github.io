@@ -9,8 +9,6 @@
 
 ### Want to learn more about my projects or collaborate?
 
-<a href=”https://www.linkedin.com/in/hannah-j-kissinger-854403116/"><img align=”left” src=”https://raw.github.com/hjkissinger/hjkissinger.github.io/icons/linkedin.png" alt=”icon | LinkedIn” width=”21px”/></a>
-
 
 
 <center><a href="https://hjkissinger.github.io/articles/" class="btn btn--inverse .btn--x-large">Articles</a>
@@ -18,5 +16,3 @@
 <a href="https://public.tableau.com/app/profile/hannah.kissinger6750" class="btn btn--inverse .btn--x-large">Tableau</a>
 <a href="https://www.linkedin.com/in/hannah-j-kissinger-854403116/" class="btn btn--inverse .btn--x-large">LinkedIn</a></center>
 
-Icon Credits:
-<a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by riajulislam - Flaticon</a>
