@@ -1,4 +1,4 @@
-## Hello! My name is Hannah J. Kissinger. :woman_technologist: [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgjbae1212%2Fhit-counter&count_bg=%23A384AC&title_bg=%23626682&icon=&icon_color=%23E7E7E7&title=Hits&edge_flat=false)](https://hits.seeyoufarm.com)
+## Hello! My name is Hannah J. Kissinger. :woman_technologist: [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgjbae1212%2Fhit-counter&count_bg=%23A384AC&title_bg=%23626682&icon=&icon_color=%23E7E7E7&title=Hits&edge_flat=false)][GitRepo]
 
 ### This is a GitHub Repository for my <a href="https://hjkissinger.github.io/">Portfolio Website</a>. 
 
@@ -17,7 +17,7 @@
 
 
 
-
+[GitRepo]: https://github.com/hjkissinger/hjkissinger.github.io
 [github]: https://github.com/hjkissinger
 [linkedin]: https://www.linkedin.com/in/](https://www.linkedin.com/in/hannah-j-kissinger-854403116/)
 [tableau]: https://public.tableau.com/app/profile/hannah.kissinger6750
