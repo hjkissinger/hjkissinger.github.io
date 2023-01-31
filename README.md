@@ -1,5 +1,10 @@
-<h3><center>Hello! My name is Hannah J. Kissinger. This is a GitHub Repository for my <a href="https://hjkissinger.github.io/">Portfolio Website</a>.</h3></center> 
-<br><br>
+### Hello! My name is Hannah J. Kissinger. This is a GitHub Repository for my <a href="https://hjkissinger.github.io/">Portfolio Website</a>.
+
+## I'm an interdisciplinary data analyst who loves data, science, and all things hygge! (*cozy!*) :computer::microscope::yarn: 
+
+
+
+
 <h4><center>Interested in learning more or collaborating? <em>Let's connect!</em></h4></center>
 <center><a href="https://hjkissinger.github.io/articles/" class="btn btn--inverse .btn--x-large">Articles</a>
 <a href="https://github.com/hjkissinger/" class="btn btn--inverse .btn--x-large" >GitHub</a>
