@@ -29,6 +29,7 @@ search: true
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+google_analytics: G-BX5MF7HX0V
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -124,3 +125,5 @@ tag_archive:
   path: /tags/
 
 github: [metadata]
+
+
