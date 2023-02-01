@@ -14,17 +14,17 @@ feature_row:
   - image_path: /assets/images/jan-kopriva-TEDo1eO8te4-unsplash.jpg
     alt: "Data processing"
     title: "Data Processing"
-    excerpt: "Coming Soon"
+    excerpt: "Dirty data begone! Messy data gets in the way of powerful insights. To prep for analysis, I clean data using **R, SQL, and spreadsheet programs**."
 
   - image_path: /assets/images/dawid-liberadzki-vPFbVB7DPZI-unsplash.jpg
     alt: "Data Analytics"
     title: "Data Analytics"
-    excerpt: "Coming Soon"
+    excerpt: "I employ a wide range of analytical techniques to unravel data mysteries. These hidden patterns, problems, and solutions are revealed through **statistical, time-series, and regression analyses**. "
 
   - image_path: /assets/images/edward-howell-VlTJdP8ZY1c-unsplash.jpg
     alt: "Data Visualization"
     title: "Data Visualization"
-    excerpt: "Coming Soon"
+    excerpt: "This is where insights blossom. Through the art of visualization, analyzed data becomes actionable knowledge for stakeholders. I produce visualizations using **R, Spreadsheets, Excel, and Tableau**."
  
 ---
 
