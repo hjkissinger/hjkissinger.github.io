@@ -1,12 +1,11 @@
 ---
-title: This is my first blog post!
+title: Test Post
 header:
   teaser: "assets/images/ishan-seefromthesky-4xmgrNUbyNA-unsplash_teaser.jpg"
-excerpt: This posts tests out the tagging features.
+excerpt: Test post.
 date: January 30, 2023
 tags:
-  - tags
-  - demo
+  - tag
 ---
 
 This is a test blog post.
