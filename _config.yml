@@ -81,6 +81,8 @@ author:
       icon: "fab fa-brands fa-linkedin"
       url: "https://linkedin.com/in/hannah-j-kissinger-854403116/"
 
+collections:
+  - medium_posts 
 
 footer:
   links:
