@@ -3,7 +3,7 @@
 ### This is a GitHub Repository for my <a href="https://hjkissinger.github.io/">Portfolio Website</a>. 
 
 #### I'm an interdisciplinary data analyst who loves:
-- :computer: Data
+- :computer: Code
 - :dna: Science
 - :yarn: All things hygge! *(cozy!)* 
 
