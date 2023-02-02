@@ -14,7 +14,7 @@ feature_row0-1:
   - image_path: /assets/images/ishan-seefromthesky-4xmgrNUbyNA-unsplash_teaser.jpg
     alt: "teaser image"
     title: "Microplastics"
-    excerpt: "Text goes here"
+    excerpt: "Coming Soon"
     url: "https://github.com/hjkissinger"
     btn_label: "Code"
     btn_class: "btn--inverse"
@@ -22,7 +22,7 @@ feature_row0-1:
     btn_label2: "Article"
     btn_class: "btn--inverse"    
     tags:
-        - Demo
+        - R
 
 feature_row0-2:
   - image_path: /assets/images/ishan-seefromthesky-4xmgrNUbyNA-unsplash_teaser.jpg
