@@ -3,8 +3,8 @@
 ### This is a GitHub Repository for my <a href="https://hjkissinger.github.io/">Portfolio Website</a>. 
 
 #### I'm an interdisciplinary data analyst who loves:
-- :computer: Code
-- :dna: Science
+- :computer: Coding *(Currently using R/SQL/BASH)*
+- :dna: Science *(Microbiology, Molecular Bio, Health, and Environmental)*
 - :yarn: All things hygge! *(cozy!)* 
 
 ### Want to learn more about my projects or collaborate?
