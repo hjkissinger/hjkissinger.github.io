@@ -77,4 +77,334 @@ For the purpose of this case study, trip ids were counted as individual customer
 * Standardize usertypes to match stakeholder definitions 
 * Remove bikes 'from HQ' and negative trip duration values
 
-Not interested in the data cleaning R-documentation? Skip to [analysis R-Documentation](link here) or the [analysis summary](link here)!
+Not interested in the data cleaning R-documentation? Skip to [analysis R-Documentation](#id1) or the [analysis summary](#id2)!
+
+# R-Documentation for Data Processing (bookmark)
+
+Make sure to set appropriate working directory. Then load the required packages and data from .csv files. 
+
+```
+setwd("path-goes-here")
+
+#Load packages
+library(tidyverse)
+library(plyr)
+
+#Load data
+Divvy_Trips_2019_Q2 <- read_csv("Divvy_Trips_2019_Q2.csv")
+Divvy_Trips_2019_Q3 <- read_csv("Divvy_Trips_2019_Q3.csv")
+Divvy_Trips_2019_Q4 <- read_csv("Divvy_Trips_2019_Q4.csv")
+Divvy_Trips_2020_Q1 <- read_csv("Divvy_Trips_2020_Q1.csv")
+
+```
+
+Compare the tables' column names.
+
+```
+colnames(Divvy_Trips_2019_Q2)
+colnames(Divvy_Trips_2019_Q3)
+colnames(Divvy_Trips_2019_Q4)
+colnames(Divvy_Trips_2020_Q1)
+```
+
+![Output for colnames R-code](https://github.com/hjkissinger/hjkissinger.github.io/assets/images/post1_2023-02-17/GA_CS1_colname.png) 
+
+Great! Looks like 2019 Q3 and Q4 have the most common column names. Let's match the column names now.
+
+```
+#Standardize column names in 2019 Q2 and 2020 Q1 dataframes
+DT_2019_Q2 <- plyr::rename(Divvy_Trips_2019_Q2, c('01 - Rental Details Rental ID' = 'trip_id',
+         '01 - Rental Details Duration In Seconds Uncapped' = 'tripduration',
+         '01 - Rental Details Local Start Time' = 'start_time',
+         '01 - Rental Details Local End Time' = 'end_time',
+         '03 - Rental Start Station ID' = 'from_station_id',
+         '03 - Rental Start Station Name' = 'from_station_name',
+         '02 - Rental End Station ID' = 'to_station_id',
+         '02 - Rental End Station Name' = 'to_station_name',
+         'User Type' = 'usertype'))
+
+DT_2020_Q1 <- plyr::rename(Divvy_Trips_2020_Q1, c('ride_id' = 'trip_id',
+         'start_station_id' = 'from_station_id',
+         'started_at' = 'start_time',
+         'ended_at' = 'end_time',
+         'start_station_name' = 'from_station_name',
+         'end_station_id' = 'to_station_id',
+         'end_station_name' = 'to_station_name',
+         'member_casual' = 'usertype'))
+
+#Create dataframes for 2019 Q3 and 2019 Q4
+DT_2019_Q3 <- Divvy_Trips_2019_Q3
+DT_2019_Q4 <- Divvy_Trips_2019_Q4
+```
+
+Add the missing 'tripduration' column to DT_2020_Q1.
+
+```
+#Load package
+library(lubridate)
+
+#Add trip duration column
+DT_2020_Q1 <- DT_2020_Q1 %>% 
+  mutate(tripduration = as.numeric(difftime(end_time, start_time, units = 'secs')))
+```
+
+Then select relevant columns for analysis.
+
+```
+DT_2019_Q2_df <- DT_2019_Q2 %>% 
+  select('trip_id', 'start_time', 'end_time', 'tripduration', 'from_station_id', 'from_station_name', 'to_station_id', 'to_station_name', 'usertype')
+
+DT_2019_Q3_df <- DT_2019_Q3 %>% 
+  select('trip_id', 'start_time', 'end_time', 'tripduration', 'from_station_id', 'from_station_name', 'to_station_id', 'to_station_name', 'usertype')
+
+DT_2019_Q4_df <- DT_2019_Q4 %>% 
+  select('trip_id', 'start_time', 'end_time', 'tripduration', 'from_station_id', 'from_station_name', 'to_station_id', 'to_station_name', 'usertype')
+
+DT_2020_Q1_df <- DT_2020_Q1 %>% 
+  select('trip_id', 'start_time', 'end_time', 'tripduration', 'from_station_id', 'from_station_name', 'to_station_id', 'to_station_name', 'usertype')
+
+```
+
+Add a column to designate quarter-year in each dataframe.
+
+```
+DT_2019_Q2_df <- DT_2019_Q2_df %>% 
+  mutate(quarter_year = 'Q2_2019')
+
+DT_2019_Q3_df <- DT_2019_Q3_df %>% 
+  mutate(quarter_year = 'Q3_2019')
+
+DT_2019_Q4_df <- DT_2019_Q4_df %>% 
+  mutate(quarter_year = 'Q4_2019')
+
+DT_2020_Q1_df <- DT_2020_Q1_df %>% 
+  mutate(quarter_year = 'Q1_2020')
+```
+
+Now combine the dataframes.
+
+```
+DT_all <- rbind(DT_2019_Q2_df, DT_2019_Q3_df, DT_2019_Q4_df, DT_2020_Q1_df)
+
+```
+
+Separate DateTime column to date and time columns.
+
+```
+DT_all <- tidyr::separate(DT_all, start_time, c('start_date', 'start_time'), sep = ' ')
+DT_all <- tidyr::separate(DT_all, end_time, c('end_date', 'end_time'), sep = ' ')
+
+```
+
+Check the data structure with glimpse.
+
+```
+glimpse(DT_all)
+```
+
+![Output for glimpse R-code](https://github.com/hjkissinger/hjkissinger.github.io/assets/images/post1_2023-02-17/GA_CS1_glimpse.png) 
+
+Looks like 'tripduration', 'from_station_id', and 'to-station-id' are the wrong data classes. Let's fix that.
+
+```
+as.character(DT_all$from_station_id)
+as.character(DT_all$to_station_id)
+as.numeric(DT_all$tripduration)
+
+```
+
+Time to add more date columns to improve analysis granularity.
+
+```
+DT_all$date <- as.Date(DT_all$start_date) #The default format is yyyy-mm-dd
+DT_all$month <- format(as.Date(DT_all$date), "%m")
+DT_all$day <- format(as.Date(DT_all$date), "%d")
+DT_all$year <- format(as.Date(DT_all$date), "%Y")
+DT_all$day_of_week <- format(as.Date(DT_all$date), "%A")
+
+DT_all <- DT_all %>% 
+  mutate(hour = hour(hms(start_time)))
+```
+Let's get rid of the rest of the 'bad' data. We'll drop the start and end date columns.
+
+```
+drop <- c('start_date', 'end_date')
+DT_all_v2 <- DT_all[!(names(DT_all) %in% drop)]
+```
+
+Then remove duplicates and NAs.
+
+```
+DT_all_v2 <- DT_all_v2[!duplicated(DT_all_v2$trip_id), ]
+DT_all_v2 <- na.omit(DT_all_v2) 
+```
+
+Standardize usertype column to match stakeholder definitions.
+
+```
+unique(DT_all_v2$usertype)
+DT_all_v2$usertype[DT_all_v2$usertype=='Subscriber'] <- 'member'
+DT_all_v2$usertype[DT_all_v2$usertype=='Customer'] <- 'casual'
+```
+
+Check if stakeholder's HQ is present in the data.
+
+```
+DT_all_v2[grep('HQ', DT_all_v2$from_station_name), ]
+```
+
+![Output for glimpse R-code](https://github.com/hjkissinger/hjkissinger.github.io/assets/images/post1_2023-02-17/GA_CS1_HQ.png) 
+
+Yup, the HQ is included in the data. What about negative values in the trip duration column?
+
+```
+min(DT_all_v2$tripduration)
+```
+
+![Output for glimpse R-code](https://github.com/hjkissinger/hjkissinger.github.io/assets/images/post1_2023-02-17/GA_CS1_TD.png) 
+
+Yikes, there are trips with negative durations. Let's remove HQ and the negative values from the data.
+
+```
+DT_all_v3 <- DT_all_v2[!(DT_all_v2$from_station_name == 'HQ QR' | DT_all_v2$tripduration<0),]
+```
+
+That's much better! Time for analysis!
+
+### R-Documentation for Descriptive Analysis (bookmark)
+
+First make sure that days of week are ordered properly.
+
+```
+DT_all_v3$day_of_week <- ordered(DT_all_v3$day_of_week, levels=c('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'))
+```
+
+Use the aggregate function to compare trip duration for user types.
+
+```
+aggregate(DT_all_v3$tripduration~DT_all_v3$usertype, FUN = summary)
+```
+Then use aggregate functions to get descriptive statistics of various levels of date granularity (date, month, year, hour, etc.).
+
+```
+aggregate(DT_all_v3$tripduration~DT_all_v3$usertype + DT_all_v3$date-type, FUN = summary)
+```
+
+Now for the fun part! Time to analyze the trip count by user type and date/time granularity.
+
+```
+#Count trips by user type
+user_count <- DT_all_v3 %>% 
+  group_by(usertype) %>% 
+  dplyr::summarise(total_count=n(),.groups='drop')
+
+#Count trips by user type and weekday
+user_count_wkd <- DT_all_v3 %>% 
+  group_by(usertype, day_of_week) %>% 
+  dplyr::summarise(total_count=n(),.groups='drop')
+user_count_wkd_w <- spread(user_count_wkd, day_of_week, total_count)
+
+#Count trips weekly average
+trip_cnt_wkd_avg_mem <- user_count_wkd %>% 
+  filter(user_count_wkd$usertype == 'member') %>% 
+  dplyr::summarise(avg_wkd = mean(total_count),.groups='drop')
+
+trip_cnt_wkd_avg_c <- user_count_wkd %>% 
+  filter(user_count_wkd$usertype == 'casual') %>% 
+  dplyr::summarise(avg_wkd = mean(total_count),.groups='drop')
+
+#Count trips by user type and hour
+user_count_hr <- DT_all_v3 %>% 
+  group_by(usertype, hour) %>% 
+  dplyr::summarise(total_count=n(),.groups='drop')
+user_count_hr_w <- spread(user_count_hr, usertype, total_count)
+
+#Count trips by user type and quarter
+user_count_q <- DT_all_v3 %>% 
+  group_by(usertype, quarter_year) %>% 
+  dplyr::summarise(total_count=n(),.groups='drop')
+user_count_q_w <- spread(user_count_q, quarter_year, total_count)
+
+#Count trips by user type and month
+user_count_month <- DT_all_v3 %>% 
+  group_by(usertype, month) %>% 
+  dplyr::summarise(total_count=n(),.groups='drop')
+user_count_month_w <- spread(user_count_month, month, total_count)
+```
+
+And now for trip duration averages.
+
+```
+#Average duration by user type (min)
+user_td_avg <- DT_all_v3 %>% 
+  group_by(usertype) %>% 
+  dplyr::summarise(avg_tripduration_min = (mean(tripduration)/60))
+
+#Average tripduration by user type and weekday (min)
+user_wkd_avg <- DT_all_v3 %>% 
+  group_by(usertype, day_of_week) %>% 
+  dplyr::summarise(avg_tripduration_min = (mean(tripduration)/60),.groups='drop')
+user_wkd_avg_w <- spread(user_wkd_avg, day_of_week, avg_tripduration_min)
+```
+
+All set with this phase of the analysis! 
+
+Data is ready to be exported and uploaded into <a href= "https://public.tableau.com/views/GoogleAnalyticsCapstoneCyclisticBikeSharePTI/CyclisticBikeShareCaseStudy?:language=en-US&:display_count=n&:origin=viz_share_link">Tableau</a> to create visualizations!
+
+```
+write.csv(DT_all_v3, file = 'DT_all_v3.csv')
+```
+# Analysis Summary {: #id1}
+
+**How do member trips compare to casual trips yearly? (Q2 2019 - Q1 2020)**
+
+<u>Percentages</u>
+
+* Casual riders made 25% of the trips.
+* Members made 75% of the trips.
+
+<u>Peak Times</u>
+
+* There is a peak season for trips in the _third quarter, in June, July, and August_.
+* Casual riders used bikes _more often on weekends_ (Saturdays and Sundays).
+* Members used bikes _more often on weekdays_.
+
+<u>Starting Hour</u>
+
+* The most popular starting hour for _casual riders is at 5pm_.
+* The most popular starting hour for _members is at 8am and 5pm_.
+
+**What is the most popular trip start time during Q3 2019 (peak months) for members and casual riders?**
+
+* Most casual riders start trips between 12pm and 4pm on weekends (Sat/Sun).
+* Most member trips start at 7am/8am or at 5pm on week days (Mon/Tue/Wed/Thu/Fri).
+
+**How do member and casual trip durations compare yearly?**
+
+<u>Average Trip Duration</u>
+
+* Casual riders have longer trips than members (59.2 min > 14.2 min).
+* There was an unusual average trip duration spike of 161.6 min in January 2020. Further investigation of this time period is recommended.
+* Average trip duration was consistent weekly for members and casual riders, respectively.
+* The longest trips for members and casual riders started at 3am.
+
+# Visualizations with Tableau {: #id2}
+
+Tableau embed codes:
+
+<div class='tableauPlaceholder' id='viz1677093907987' style='position: relative'><noscript><a href='#'><img alt='Cyclistic Bike Share Case Study ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Go&#47;GoogleAnalyticsCapstoneCyclisticBikeSharePTI&#47;CyclisticBikeShareCaseStudy&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='GoogleAnalyticsCapstoneCyclisticBikeSharePTI&#47;CyclisticBikeShareCaseStudy' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Go&#47;GoogleAnalyticsCapstoneCyclisticBikeSharePTI&#47;CyclisticBikeShareCaseStudy&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1677093907987');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1016px';vizElement.style.height='991px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/GoogleAnalyticsCapstoneCyclisticBikeSharePTI/CyclisticBikeShareCaseStudy?:language=en-US&:display_count=n&:origin=viz_share_link?:showVizHome=no&:embed=true"
+ width="650" height="450"></iframe>
+
+# Final Recommendations
+
+Final Recommendations to Increase Membership Conversion Rate for Cyclistic.
+
+1. Target weekday casual riders in peak season (Q3)
+      - Increase number of bikes available at 5pm
+      - Send promotions to customers between 8am and 9pm to encourage commuter sign-ups
+
+2. Target weekend casual riders in peak season (Q3)
+      -  Send promotions to customers on Friday evenings to encourage weekend signups
+
