@@ -398,10 +398,12 @@ For an interactive walkthrough of the data analysis and dashboards visit the dat
 {: #id2}
 
 1. Target _weekday_ casual riders in peak season (Q3)
-      - Send promotions to customers at 8am and 5pm to encourage commuter signups
+      - Send promotions to customers at 8am and 5pm to encourage commuter membership signups
       - Encourage larger quantities of shorter trips through a discount reward system
-      - Increase number of bikes available at 5pm to meet growing demand
+      - Increase number of bikes available at 5pm to meet the growing demand
 
 2. Target _weekend_ casual riders in peak season (Q3)
-      -  Send promotions to customers on Friday evenings to encourage weekend signups
+      -  Send promotions to customers on Thursday and Friday evenings to encourage weekend membership signups
+      -  Use weekend adventure imagery for marketing campaign
+      -  Create sightseeing suggestions perk for members only
 
