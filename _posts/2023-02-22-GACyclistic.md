@@ -18,7 +18,7 @@ tags:
   - Data Viz
 ---
 
-This is a case study about Cyclistic bike share from the **Coursera Google Analytics Capstone course**. The goal of this project was to determine factors that differentiate annual members and casual bike riders. These factors are then used to develop a marketing campaign that aims to increase the membership conversion rate.
+This is a case study about Cyclistic bike share from the **Coursera Google Analytics Capstone course**. The goal of this project was to determine factors that differentiate annual members and casual bike riders. These factors are then used to develop recommendations for a marketing campaign that aims to increase the membership conversion rate.
 
 The tools I used for this project were **R and Tableau**. Check out the <a href="https://github.com/hjkissinger/Coursera-GA-Capstone/tree/main/R-scripts">R Script</a> to follow along or head to my <a href="https://public.tableau.com/views/GoogleAnalyticsCapstoneCyclisticBikeSharePTI/CyclisticBikeShareCaseStudy?:language=en-US&:display_count=n&:origin=viz_share_link">Tableau</a> viz story to see the end result!
 
