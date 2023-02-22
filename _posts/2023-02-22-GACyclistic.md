@@ -109,7 +109,7 @@ colnames(Divvy_Trips_2019_Q4)
 colnames(Divvy_Trips_2020_Q1)
 ```
 
-![Output for colnames R-code](https://github.com/hjkissinger/hjkissinger.github.io/assets/images/post1_2023-02-17/GA_CS1_colname.png) 
+![Output for colnames R-code](https://github.com/hjkissinger/hjkissinger.github.io/assets/images/post1_2023-02-17/GA_CS1_colname.jpg) 
 
 <img src="https://github.com/hjkissinger/hjkissinger.github.io/assets/images/post1_2023-02-17/GA_CS1_colname.png)" alt="colnames output">
 
@@ -206,7 +206,7 @@ Check the data structure with glimpse.
 glimpse(DT_all)
 ```
 
-![Output for glimpse R-code](https://github.com/hjkissinger/hjkissinger.github.io/assets/images/post1_2023-02-17/GA_CS1_glimpse.png) 
+![Output for glimpse R-code](https://github.com/hjkissinger/hjkissinger.github.io/assets/images/post1_2023-02-17/GA_CS1_glimpse.jpg) 
 
 Looks like 'tripduration', 'from_station_id', and 'to-station-id' are the wrong data classes. Let's fix that.
 
@@ -257,7 +257,7 @@ Check if stakeholder's HQ is present in the data.
 DT_all_v2[grep('HQ', DT_all_v2$from_station_name), ]
 ```
 
-![Output for glimpse R-code](https://github.com/hjkissinger/hjkissinger.github.io/assets/images/post1_2023-02-17/GA_CS1_HQ.png) 
+![Output for glimpse R-code](https://github.com/hjkissinger/hjkissinger.github.io/assets/images/post1_2023-02-17/GA_CS1_HQ.jpg) 
 
 Yup, the HQ is included in the data. What about negative values in the trip duration column?
 
@@ -265,7 +265,7 @@ Yup, the HQ is included in the data. What about negative values in the trip dura
 min(DT_all_v2$tripduration)
 ```
 
-![Output for glimpse R-code](https://github.com/hjkissinger/hjkissinger.github.io/assets/images/post1_2023-02-17/GA_CS1_TD.png) 
+![Output for glimpse R-code](https://github.com/hjkissinger/hjkissinger.github.io/assets/images/post1_2023-02-17/GA_CS1_TD.jpg) 
 
 Yikes, there are trips with negative durations. Let's remove HQ and the negative values from the data.
 
