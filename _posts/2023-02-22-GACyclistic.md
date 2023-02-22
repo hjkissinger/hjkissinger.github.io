@@ -79,7 +79,7 @@ For the purpose of this case study, trip ids were counted as individual customer
 
 Not interested in the data cleaning R-documentation? Skip to [analysis summary](#id1) or the [final recommendations](#id2)!
 
-## R-Documentation
+# R-Documentation: Data Processing
 
 Make sure to set appropriate working directory. Then load the required packages and data from .csv files. 
 
@@ -271,7 +271,7 @@ DT_all_v3 <- DT_all_v2[!(DT_all_v2$from_station_name == 'HQ QR' | DT_all_v2$trip
 
 That's much better! Time for analysis!
 
-### R-Documentation for Descriptive Analysis (bookmark)
+# R-Documentation: Descriptive Analysis
 
 First make sure that days of week are ordered properly.
 
@@ -394,9 +394,7 @@ write.csv(DT_all_v3, file = 'DT_all_v3.csv')
 
 Tableau embed codes:
 
-<div class='tableauPlaceholder' id='viz1677093907987' style='position: relative'><noscript><a href='#'><img alt='Cyclistic Bike Share Case Study ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Go&#47;GoogleAnalyticsCapstoneCyclisticBikeSharePTI&#47;CyclisticBikeShareCaseStudy&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='GoogleAnalyticsCapstoneCyclisticBikeSharePTI&#47;CyclisticBikeShareCaseStudy' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Go&#47;GoogleAnalyticsCapstoneCyclisticBikeSharePTI&#47;CyclisticBikeShareCaseStudy&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1677093907987');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1016px';vizElement.style.height='991px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/GoogleAnalyticsCapstoneCyclisticBikeSharePTI/CyclisticBikeShareCaseStudy?:language=en-US&:display_count=n&:origin=viz_share_link?:showVizHome=no&:embed=true"
+<iframe src="https://public.tableau.com/views/GoogleAnalyticsCapstoneCyclisticBikeSharePTI/CyclisticBikeShareCaseStudy?:language=en-US&:display_count=n&:origin=viz_share_link?:showVizHome=no&:embed=true"
  width="650" height="450"></iframe>
 
 # Final Recommendations
