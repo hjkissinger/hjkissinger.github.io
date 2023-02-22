@@ -12,10 +12,10 @@ header:
       url: "/about/" 
 
 feature_row:
-  - image_path: /assets/images/ishan-seefromthesky-4xmgrNUbyNA-unsplash_c.jpg
-    alt: "Empty plastic bottle on beach"
-    title: "Microplastics"
-    excerpt: "Coming Soon"
+  - image_path: /assets/images/post1_2023-02-17/andreas-haimerl-cv8iKu2ONM-unsplash.jpg
+    alt: "Picture of bike by Andreas Haimerl on Unsplash"
+    title: "Cyclistic Bike Share Case Study"
+    excerpt: "The Cyclistic Bike Share Case Study is from the **Coursera Google Analytics Capstone course**. The goal of this project was to determine factors that differentiate annual members and casual bike riders."
     url: "/blog/"
     btn_label: "Read More" 
     btn_class: "btn--inverse"
@@ -23,7 +23,7 @@ feature_row:
     alt: "Farmers market stands with fruits"
     title: "Farmer's Market"
     excerpt: "Coming Soon"
-    url: "/blog/"
+    url: "/GACyclistic/"
     btn_label: "Read More" 
     btn_class: "btn--inverse"
   - image_path: /assets/images/aaron-burden-2xhOYKK-jAM-unsplash_c.jpg
