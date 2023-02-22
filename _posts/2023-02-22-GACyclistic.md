@@ -35,25 +35,25 @@ The first quarter of 2020 just came to a close. The marketing team at Cyclistic,
 
 The descriptions below are based on Google's ROCCC analysis. Each description was given a rating of zero to five, _five meaning meets expectations_.
 
-### **Reliable:** _Rating_ 2/5
+**Reliable:** _Rating_ 2/5
 The data is located in an aws cloud warehouse in .zip files that are organized by financial quarter. There is currently no encrypted password or user permissions set for these files. _An encrypted password or user permissions should be added to the data files to protect the integrity and improve the security of the stakeholder’s data._
 
-### **Relevant:** _Rating_ 4/5
+**Relevant:** _Rating_ 4/5
 The data is relevant to the business problem. However, gender and birth year columns in the data are either missing or contain nulls. _It is recommended that the gender of members is added for a robust analysis on the demographics of Cyclistic Bikes’ customers._
 
-### **Original:** _Rating_ 5/5
+**Original:** _Rating_ 5/5
 The data is proprietary and collected from the original source.
 
-### **Comprehensive** _Rating_ 2/5
+**Comprehensive** _Rating_ 2/5
 The data is organized by trip id and not customer id. This makes it difficult to determine the frequency of bike use per customer. _If the same customer makes multiple trips, this can introduce bias into the analysis._ 
 
-### **Current:** _Rating_ 5/5
+**Current:** _Rating_ 5/5
 The data is current to the case study setting (end of Q1 in 2020).
 
-### **Cited:** _Rating_ 5/5
+**Cited:** _Rating_ 5/5
 The data is from a trustworthy source.
 
-### Data Prep Tasks
+# Data Prep Tasks
 
 * Set user permissions and/or encrypted file passwords
 * Add gender and birth year to all datasets (if attainable)
