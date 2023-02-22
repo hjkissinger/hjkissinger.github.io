@@ -351,8 +351,10 @@ Data is ready to be exported and uploaded into <a href= "https://public.tableau.
 ```
 write.csv(DT_all_v3, file = 'DT_all_v3.csv')
 ```
-# Analysis Summary 
+# Analysis Summary & Visualizations
 {: #id1}
+
+![Num trips dashboard]({{ site.url }}{{ site.baseurl }}/assets/images/post1_2023-02-17/GA_CS1_Num_trips.jpg)
 
 **How do member trips compare to casual trips yearly? (Q2 2019 - Q1 2020)**
 
@@ -371,11 +373,15 @@ write.csv(DT_all_v3, file = 'DT_all_v3.csv')
 
 * The most popular starting hour for _casual riders is at 5pm_.
 * The most popular starting hour for _members is at 8am and 5pm_.
+<br>
+![Num trips hr dashboard]({{ site.url }}{{ site.baseurl }}/assets/images/post1_2023-02-17/GA_CS1_Num_trips_hr.jpg)
 
 **What is the most popular trip start time during Q3 2019 (peak months) for members and casual riders?**
 
 * Most casual riders start trips between 12pm and 4pm on weekends (Sat/Sun).
 * Most member trips start at 7am/8am or at 5pm on week days (Mon/Tue/Wed/Thu/Fri).
+<br>
+![Trip duration dashboard]({{ site.url }}{{ site.baseurl }}/assets/images/post1_2023-02-17/GA_CS1_Trip_dur.jpg)
 
 **How do member and casual trip durations compare yearly?**
 
@@ -386,21 +392,11 @@ write.csv(DT_all_v3, file = 'DT_all_v3.csv')
 * Average trip duration was consistent weekly for members and casual riders, respectively.
 * The longest trips for members and casual riders started at 3am.
 
-# Visualizations with Tableau 
+# Interactive Data Story 
 {: #id2}
 
-Tableau embed codes:
-
-<iframe src="https://public.tableau.com/views/GoogleAnalyticsCapstoneCyclisticBikeSharePTI/CyclisticBikeShareCaseStudy?:language=en-US&:display_count=n&:origin=viz_share_link?:showVizHome=no&:embed=true"
- width="645" height="955"></iframe>
+For an interactive walkthrough of the data analysis and dashboards visit the data story on <a href="https://public.tableau.com/app/profile/hannah.kissinger6750/viz/GoogleAnalyticsCapstoneCyclisticBikeSharePTI/CyclisticBikeShareCaseStudy">Tableau</a>!
  
- 
-![Num trips dashboard]({{ site.url }}{{ site.baseurl }}/assets/images/post1_2023-02-17/GA_CS1_Num_trips.jpg)
-
-![Num trips hr dashboard]({{ site.url }}{{ site.baseurl }}/assets/images/post1_2023-02-17/GA_CS1_Num_trips_hr.jpg)
-
-![Trip duration dashboard]({{ site.url }}{{ site.baseurl }}/assets/images/post1_2023-02-17/GA_CS1_Trip_dur.jpg)
-
 # Final Recommendations
 
 Final Recommendations to Increase Membership Conversion Rate for Cyclistic.
