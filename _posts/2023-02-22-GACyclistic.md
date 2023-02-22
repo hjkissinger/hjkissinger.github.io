@@ -378,7 +378,7 @@ For an interactive walkthrough of the data analysis and dashboards visit the dat
 
 **What is the most popular trip start time during Q3 2019 (peak months) for members and casual riders?**
 
-![Num trips hr dashboard]({{ site.url }}{{ site.baseurl }}/assets/images/post1_2023-02-17/GA_CS1_Num_trips_hr.jpg)
+![Num trips hr dashboard]({{ site.url }}{{ site.baseurl }}/assets/images/post1_2023-02-17/GA_CS1_Num_Trips_hr.jpg)
 
 * Most casual riders start trips between 12pm and 4pm on weekends (Sat/Sun).
 * Most member trips start at 7am/8am or at 5pm on week days (Mon/Tue/Wed/Thu/Fri).
