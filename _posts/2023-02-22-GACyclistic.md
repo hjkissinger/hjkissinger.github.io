@@ -7,6 +7,7 @@ header:
   show_overlay_excerpt: false
 excerpt: This is a case study about Cyclistic bike share from the Coursera Google Analytics Capstone course. The goal of this project was to determine factors that differentiate annual members and casual bike riders.
 date: February 22, 2023
+toc: true
 toc_sticky: true
 tags:
   - Google Analytics
@@ -41,16 +42,16 @@ The data is located in an aws cloud warehouse in .zip files that are organized b
 **Relevant:** _Rating_ 4/5 <br>
 The data is relevant to the business problem. However, gender and birth year columns in the data are either missing or contain nulls. _It is recommended that the gender of members is added for a robust analysis on the demographics of Cyclistic Bikes’ customers._
 
-**Original:** _Rating_ 5/5
+**Original:** _Rating_ 5/5 <br>
 The data is proprietary and collected from the original source.
 
-**Comprehensive** _Rating_ 2/5
+**Comprehensive** _Rating_ 2/5 <br>
 The data is organized by trip id and not customer id. This makes it difficult to determine the frequency of bike use per customer. _If the same customer makes multiple trips, this can introduce bias into the analysis._ 
 
-**Current:** _Rating_ 5/5
+**Current:** _Rating_ 5/5 <br>
 The data is current to the case study setting (end of Q1 in 2020).
 
-**Cited:** _Rating_ 5/5
+**Cited:** _Rating_ 5/5 <br>
 The data is from a trustworthy source.
 
 # Data Prep Tasks
