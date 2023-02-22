@@ -7,7 +7,7 @@ header:
   show_overlay_excerpt: false
 excerpt: This is a case study about Cyclistic bike share from the Coursera Google Analytics Capstone course. The goal of this project was to determine factors that differentiate annual members and casual bike riders.
 date: February 22, 2023
-toc: true
+toc_sticky: true
 tags:
   - Google Analytics
   - Tableau
@@ -25,20 +25,20 @@ The tools I used for this project were **R and Tableau**. Check out the <a href=
 
 The first quarter of 2020 just came to a close. The marketing team at Cyclistic, a Chicago bike share company, wants to develop a targeted marketing campaign that converts casual customers into members. You have access to historical bikeshare data of the past four quarters (2019 Q2/Q3/Q4 and 2020 Q1).
 
-## Stakeholder Goal
+### Stakeholder Goal
 > Cyclistic aims to increase its number of annual memberships by targeting casual members through a marketing campaign.
 
-## Business Task
+### Business Task
 > Using historical data, determine key factors which differentiate casual riders from annual members.
 
 # Data Descriptions
 
 The descriptions below are based on Google's ROCCC analysis. Each description was given a rating of zero to five, _five meaning meets expectations_.
 
-**Reliable:** _Rating_ 2/5
+**Reliable:** _Rating_ 2/5 <br>
 The data is located in an aws cloud warehouse in .zip files that are organized by financial quarter. There is currently no encrypted password or user permissions set for these files. _An encrypted password or user permissions should be added to the data files to protect the integrity and improve the security of the stakeholder’s data._
 
-**Relevant:** _Rating_ 4/5
+**Relevant:** _Rating_ 4/5 <br>
 The data is relevant to the business problem. However, gender and birth year columns in the data are either missing or contain nulls. _It is recommended that the gender of members is added for a robust analysis on the demographics of Cyclistic Bikes’ customers._
 
 **Original:** _Rating_ 5/5
