@@ -77,7 +77,7 @@ For the purpose of this case study, trip ids were counted as individual customer
 * Standardize usertypes to match stakeholder definitions 
 * Remove bikes 'from HQ' and negative trip duration values
 
-Not interested in the R-documentation? Skip to [analysis summary](#id1) or the [final recommendations](#id2)!
+Not interested in the R-documentation? Skip to [analysis summary](#id1) or the [recommendations](#id2)!
 
 # R-Documentation
 
