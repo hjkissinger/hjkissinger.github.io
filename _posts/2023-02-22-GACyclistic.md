@@ -8,7 +8,7 @@ excerpt: "This is a case study about Cyclistic bike share from the Coursera Goog
 
 date: February 22, 2023
 tags:
-  - Google Analytics
+  - GoogleAnalytics
   - Tableau
   - capstone
   - processing
