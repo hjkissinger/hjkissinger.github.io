@@ -3,9 +3,9 @@ title: Cyclistic Bike Share Case Study
 header:
   overlay_color: "#32333b"
   overlay_image: /assets/images/post1_2023-02-17/andreas-haimerl-cv8iKu2ONM-unsplash.jpg
-  image_description: "Picture of bikes taken by Andreas Haimerl on Unsplash"
+  image_description: "Picture of bike taken by Andreas Haimerl on Unsplash"
   show_overlay_excerpt: false
-excerpt: This is a case study about Cyclistic bike share from the Coursera Google Analytics Capstone course. The goal of this project was to determine factors that differentiate annual members and casual bike riders.
+excerpt: The Cyclistic Bike Share Case Study is from the **Coursera Google Analytics Capstone course**. The goal of this project was to determine factors that differentiate annual members and casual bike riders.
 date: February 22, 2023
 toc: true
 toc_sticky: true
