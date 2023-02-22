@@ -111,6 +111,8 @@ colnames(Divvy_Trips_2020_Q1)
 
 ![Output for colnames R-code](https://github.com/hjkissinger/hjkissinger.github.io/assets/images/post1_2023-02-17/GA_CS1_colname.png) 
 
+<img src="https://github.com/hjkissinger/hjkissinger.github.io/assets/images/post1_2023-02-17/GA_CS1_colname.png)" alt="colnames output">
+
 Great! Looks like 2019 Q3 and Q4 have the most common column names. Let's match the column names now.
 
 ```
@@ -273,7 +275,7 @@ DT_all_v3 <- DT_all_v2[!(DT_all_v2$from_station_name == 'HQ QR' | DT_all_v2$trip
 
 That's much better! Time for analysis!
 
-# Descriptive Analysis
+## Descriptive Analysis
 
 First make sure that days of week are ordered properly.
 
