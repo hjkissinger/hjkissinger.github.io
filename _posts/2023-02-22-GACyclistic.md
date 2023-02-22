@@ -6,13 +6,7 @@ header:
   image_description: "Picture of bikes taken by Ben Wicks on Unsplash" 
 excerpt: This is a case study about Cyclistic bike share from the Coursera Google Analytics Capstone course. I had a lot of fun diving into this messy dataset. There's a very good reason why this project is so popular for data analyst portfolios! The tools I used for this project were R and Tableau. Check out the R Script to follow along or head to my Tableau visualizations to see the end result! 
 date: February 22, 2023
-tags:
-  - GoogleAnalytics
-  - Tableau
-  - capstone
-  - processing
-  - analysis
-  - visualizations
+
 ---
 
 This is a test blog post.
