@@ -12,7 +12,7 @@ gallery:
   - url: /assets/images/post1_2023-02-17/GA_CS1_Num_trips.jpg
     image_path: /assets/images/post1_2023-02-17/GA_CS1_Num_trips.jpg
     alt: "Dashboard for GA Cyclistic Bike Share Case Study Number of Trips"
-    title: "How do member trips compare to casual trips yearly? (Q2 2019 - Q1 2020)"
+    title: "How do member trips compare to casual trips yearly? (Q2 2019 - Q1 2020)For more information check out the Cyclistic Bike Share Case Study"
   - url: /assets/images/alexander-grey-62vi3TG5EDg-unsplash.jpg
     image_path: /assets/images/alexander-grey-62vi3TG5EDg-unsplash.jpg
     alt: "placeholder image 2"
