@@ -77,7 +77,7 @@ For the purpose of this case study, trip ids were counted as individual customer
 * Standardize usertypes to match stakeholder definitions 
 * Remove bikes 'from HQ' and negative trip duration values
 
-Not interested in the data cleaning R-documentation? Skip to [analysis summary](#id1) or the [final recommendations](#id2)!
+Not interested in the R-documentation? Skip to [analysis summary](#id1) or the [final recommendations](#id2)!
 
 # R-Documentation
 
@@ -405,10 +405,10 @@ Tableau embed codes:
 
 Final Recommendations to Increase Membership Conversion Rate for Cyclistic.
 
-1. Target weekday casual riders in peak season (Q3)
+1. Target _weekday_ casual riders in peak season (Q3)
       - Increase number of bikes available at 5pm
       - Send promotions to customers between 8am and 9pm to encourage commuter sign-ups
 
-2. Target weekend casual riders in peak season (Q3)
+2. Target _weekend_ casual riders in peak season (Q3)
       -  Send promotions to customers on Friday evenings to encourage weekend signups
 
