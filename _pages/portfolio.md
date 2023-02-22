@@ -12,7 +12,7 @@ header:
   
 feature_row0-1:
   - image_path: /assets/images/post1_2023-02-17/andreas-haimerl-cv8iKu2ONM-unsplash.jpg
-    alt: "teaser image"
+    alt: "Image by Andreas Haimerl on Unsplash"
     title: "Google Analytics Capstone- Cyclistic Bike Share"
     excerpt: "This is a case study about Cyclistic bike share from the **Coursera Google Analytics Capstone course**. The goal of this project was to determine factors that differentiate annual members and casual bike riders. These factors are then used to develop recommendations for a marketing campaign that aims to increase the membership conversion rate."
     url: "https://github.com/hjkissinger/Coursera-GA-Capstone/tree/main/R-scripts"
