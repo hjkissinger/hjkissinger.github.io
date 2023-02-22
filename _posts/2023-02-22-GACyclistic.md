@@ -354,9 +354,11 @@ write.csv(DT_all_v3, file = 'DT_all_v3.csv')
 # Analysis Summary & Visualizations
 {: #id1}
 
-![Num trips dashboard]({{ site.url }}{{ site.baseurl }}/assets/images/post1_2023-02-17/GA_CS1_Num_trips.jpg)
+For an interactive walkthrough of the data analysis and dashboards visit the data story on <a href="https://public.tableau.com/app/profile/hannah.kissinger6750/viz/GoogleAnalyticsCapstoneCyclisticBikeSharePTI/CyclisticBikeShareCaseStudy">Tableau</a>!
 
 **How do member trips compare to casual trips yearly? (Q2 2019 - Q1 2020)**
+
+![Num trips dashboard]({{ site.url }}{{ site.baseurl }}/assets/images/post1_2023-02-17/GA_CS1_Num_trips.jpg)
 
 <u>Percentages</u>
 
@@ -373,17 +375,17 @@ write.csv(DT_all_v3, file = 'DT_all_v3.csv')
 
 * The most popular starting hour for _casual riders is at 5pm_.
 * The most popular starting hour for _members is at 8am and 5pm_.
-<br>
-![Num trips hr dashboard]({{ site.url }}{{ site.baseurl }}/assets/images/post1_2023-02-17/GA_CS1_Num_trips_hr.jpg)
 
 **What is the most popular trip start time during Q3 2019 (peak months) for members and casual riders?**
 
+![Num trips hr dashboard]({{ site.url }}{{ site.baseurl }}/assets/images/post1_2023-02-17/GA_CS1_Num_trips_hr.jpg)
+
 * Most casual riders start trips between 12pm and 4pm on weekends (Sat/Sun).
 * Most member trips start at 7am/8am or at 5pm on week days (Mon/Tue/Wed/Thu/Fri).
-<br>
-![Trip duration dashboard]({{ site.url }}{{ site.baseurl }}/assets/images/post1_2023-02-17/GA_CS1_Trip_dur.jpg)
 
 **How do member and casual trip durations compare yearly?**
+
+![Trip duration dashboard]({{ site.url }}{{ site.baseurl }}/assets/images/post1_2023-02-17/GA_CS1_Trip_dur.jpg)
 
 <u>Average Trip Duration</u>
 
@@ -392,12 +394,8 @@ write.csv(DT_all_v3, file = 'DT_all_v3.csv')
 * Average trip duration was consistent weekly for members and casual riders, respectively.
 * The longest trips for members and casual riders started at 3am.
 
-# Interactive Data Story 
-{: #id2}
-
-For an interactive walkthrough of the data analysis and dashboards visit the data story on <a href="https://public.tableau.com/app/profile/hannah.kissinger6750/viz/GoogleAnalyticsCapstoneCyclisticBikeSharePTI/CyclisticBikeShareCaseStudy">Tableau</a>!
- 
 # Final Recommendations
+{: #id2}
 
 Final Recommendations to Increase Membership Conversion Rate for Cyclistic.
 
