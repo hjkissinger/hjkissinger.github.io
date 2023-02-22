@@ -54,7 +54,7 @@ The data is current to the case study setting (end of Q1 in 2020).
 **Cited:** _Rating_ 5/5 <br>
 The data is from a trustworthy source.
 
-# Data Prep Tasks
+# Data Preparation
 
 * Set user permissions and/or encrypted file passwords
 * Add gender and birth year to all datasets (if attainable)
@@ -79,7 +79,9 @@ For the purpose of this case study, trip ids were counted as individual customer
 
 Not interested in the data cleaning R-documentation? Skip to [analysis summary](#id1) or the [final recommendations](#id2)!
 
-# R-Documentation: Data Processing
+# R-Documentation
+
+## Data Processing
 
 Make sure to set appropriate working directory. Then load the required packages and data from .csv files. 
 
@@ -271,7 +273,7 @@ DT_all_v3 <- DT_all_v2[!(DT_all_v2$from_station_name == 'HQ QR' | DT_all_v2$trip
 
 That's much better! Time for analysis!
 
-# R-Documentation: Descriptive Analysis
+# Descriptive Analysis
 
 First make sure that days of week are ordered properly.
 
