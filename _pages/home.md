@@ -12,11 +12,11 @@ header:
       url: "/about/" 
 
 feature_row:
-  - image_path: /assets/images/post1_2023-02-17/andreas-haimerl-cv8iKu2ONM-unsplash.jpg
+  - image_path: /assets/images/post1_2023-02-17/andreas-haimerl-cv8iKu2ONM-unsplash_c.jpg
     alt: "Picture of bike by Andreas Haimerl on Unsplash"
     title: "Cyclistic Bike Share Case Study"
     excerpt: "The Cyclistic Bike Share Case Study is from the **Coursera Google Analytics Capstone course**. The goal of this project was to determine factors that differentiate annual members and casual bike riders."
-    url: "/blog/"
+    url: "https://hjkissinger.info/GACyclistic/"
     btn_label: "Read More" 
     btn_class: "btn--inverse"
   - image_path: /assets/images/annie-spratt-PJNZiu7FULA-unsplash_c.jpg
