@@ -109,8 +109,6 @@ colnames(Divvy_Trips_2019_Q4)
 colnames(Divvy_Trips_2020_Q1)
 ```
 
-![Output for colnames R-code](https://github.com/hjkissinger/hjkissinger.github.io/assets/images/post1_2023-02-17/GA_CS1_colname.jpg) 
-
 ![Output for colnames R-code]({{ site.url }}{{ site.baseurl }}/assets/images/post1_2023-02-17/GA_CS1_colname.jpg)
 
 Great! Looks like 2019 Q3 and Q4 have the most common column names. Let's match the column names now.
@@ -206,7 +204,7 @@ Check the data structure with glimpse.
 glimpse(DT_all)
 ```
 
-![Output for glimpse R-code](https://github.com/hjkissinger/hjkissinger.github.io/assets/images/post1_2023-02-17/GA_CS1_glimpse.jpg) 
+![Output for glimpse R-code]({{ site.url }}{{ site.baseurl }}/assets/images/post1_2023-02-17/GA_CS1_glimpse.jpg)
 
 Looks like 'tripduration', 'from_station_id', and 'to-station-id' are the wrong data classes. Let's fix that.
 
@@ -257,7 +255,7 @@ Check if stakeholder's HQ is present in the data.
 DT_all_v2[grep('HQ', DT_all_v2$from_station_name), ]
 ```
 
-![Output for glimpse R-code](https://github.com/hjkissinger/hjkissinger.github.io/assets/images/post1_2023-02-17/GA_CS1_HQ.jpg) 
+![Output for grep HQ R-code]({{ site.url }}{{ site.baseurl }}/assets/images/post1_2023-02-17/GA_CS1_HQ.jpg)
 
 Yup, the HQ is included in the data. What about negative values in the trip duration column?
 
@@ -265,7 +263,7 @@ Yup, the HQ is included in the data. What about negative values in the trip dura
 min(DT_all_v2$tripduration)
 ```
 
-![Output for glimpse R-code](https://github.com/hjkissinger/hjkissinger.github.io/assets/images/post1_2023-02-17/GA_CS1_TD.jpg) 
+![Output for min trip duration R-code]({{ site.url }}{{ site.baseurl }}/assets/images/post1_2023-02-17/GA_CS1_TD.jpg)
 
 Yikes, there are trips with negative durations. Let's remove HQ and the negative values from the data.
 
@@ -399,7 +397,14 @@ write.csv(DT_all_v3, file = 'DT_all_v3.csv')
 Tableau embed codes:
 
 <iframe src="https://public.tableau.com/views/GoogleAnalyticsCapstoneCyclisticBikeSharePTI/CyclisticBikeShareCaseStudy?:language=en-US&:display_count=n&:origin=viz_share_link?:showVizHome=no&:embed=true"
- width="650" height="450"></iframe>
+ width="645" height="955"></iframe>
+ 
+ 
+![Num trips dashboard]({{ site.url }}{{ site.baseurl }}/assets/images/post1_2023-02-17/GA_CS1_Num_trips.jpg)
+
+![Num trips hr dashboard]({{ site.url }}{{ site.baseurl }}/assets/images/post1_2023-02-17/GA_CS1_Num_trips_hr.jpg)
+
+![Trip duration dashboard]({{ site.url }}{{ site.baseurl }}/assets/images/post1_2023-02-17/GA_CS1_Trip_dur.jpg)
 
 # Final Recommendations
 
