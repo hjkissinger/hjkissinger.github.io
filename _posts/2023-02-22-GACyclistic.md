@@ -1,5 +1,5 @@
 ---
-title: Google Analytics Capstone- Cyclistic Bike Share
+title: Cyclistic Bike Share Case Study
 header:
   overlay_color: "#32333b"
   overlay_image: /assets/images/post1_2023-02-17/andreas-haimerl-cv8iKu2ONM-unsplash.jpg
