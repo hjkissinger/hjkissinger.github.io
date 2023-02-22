@@ -394,10 +394,8 @@ For an interactive walkthrough of the data analysis and dashboards visit the dat
 * Average trip duration was consistent weekly for members and casual riders, respectively.
 * The longest trips for members and casual riders started at 3am.
 
-# Final Recommendations
+# Recommendations for Marketing Campaign
 {: #id2}
-
-Final Recommendations to Increase Membership Conversion Rate for Cyclistic.
 
 1. Target _weekday_ casual riders in peak season (Q3)
       - Increase number of bikes available at 5pm
