@@ -79,7 +79,7 @@ For the purpose of this case study, trip ids were counted as individual customer
 
 Not interested in the data cleaning R-documentation? Skip to [analysis R-Documentation](#id1) or the [analysis summary](#id2)!
 
-# R-Documentation for Data Processing (bookmark)
+# R-Documentation for Data Processing
 
 Make sure to set appropriate working directory. Then load the required packages and data from .csv files. 
 
@@ -354,7 +354,8 @@ Data is ready to be exported and uploaded into <a href= "https://public.tableau.
 ```
 write.csv(DT_all_v3, file = 'DT_all_v3.csv')
 ```
-# Analysis Summary {: #id1}
+# Analysis Summary 
+{: #id1}
 
 **How do member trips compare to casual trips yearly? (Q2 2019 - Q1 2020)**
 
@@ -388,7 +389,8 @@ write.csv(DT_all_v3, file = 'DT_all_v3.csv')
 * Average trip duration was consistent weekly for members and casual riders, respectively.
 * The longest trips for members and casual riders started at 3am.
 
-# Visualizations with Tableau {: #id2}
+# Visualizations with Tableau 
+{: #id2}
 
 Tableau embed codes:
 
