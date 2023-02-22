@@ -397,8 +397,11 @@ For an interactive walkthrough of the data analysis and dashboards visit the dat
 # Recommendations for Marketing Campaign
 {: #id2}
 
+
 A quick recap on the **Stakeholder Goal**:
 > Cyclistic aims to increase its number of annual memberships by targeting casual members through a marketing campaign.
+
+**Recommendations**
 
 1. Target _weekday_ casual riders in peak season (Q3)
       - Send promotions to customers at 8am and 5pm to encourage commuter membership signups
