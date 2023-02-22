@@ -13,8 +13,8 @@ tags:
   - Google Analytics
   - Tableau
   - Capstone
-  - Data processing
-  - Data analysis
+  - Data Processing
+  - Data Analysis
   - Data Viz
 ---
 
