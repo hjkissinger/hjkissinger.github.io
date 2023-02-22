@@ -111,7 +111,7 @@ colnames(Divvy_Trips_2020_Q1)
 
 ![Output for colnames R-code](https://github.com/hjkissinger/hjkissinger.github.io/assets/images/post1_2023-02-17/GA_CS1_colname.jpg) 
 
-<img src="https://github.com/hjkissinger/hjkissinger.github.io/assets/images/post1_2023-02-17/GA_CS1_colname.png)" alt="colnames output">
+![Output for colnames R-code]({{ site.url }}{{ site.baseurl }}/assets/images/post1_2023-02-17/GA_CS1_colname.jpg)
 
 Great! Looks like 2019 Q3 and Q4 have the most common column names. Let's match the column names now.
 
