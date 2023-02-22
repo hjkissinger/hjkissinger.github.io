@@ -25,10 +25,10 @@ The tools I used for this project were **R and Tableau**. Check out the <a href=
 
 The first quarter of 2020 just came to a close. The marketing team at Cyclistic, a Chicago bike share company, wants to develop a targeted marketing campaign that converts casual customers into members. You have access to historical bikeshare data of the past four quarters (2019 Q2/Q3/Q4 and 2020 Q1).
 
-## <u>Stakeholder Goal</u>
+## Stakeholder Goal
 > Cyclistic aims to increase its number of annual memberships by targeting casual members through a marketing campaign.
 
-## <u>Business Task</u>
+## Business Task
 > Using historical data, determine key factors which differentiate casual riders from annual members.
 
 # Data Descriptions
