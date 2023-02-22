@@ -97,7 +97,6 @@ Divvy_Trips_2019_Q2 <- read_csv("Divvy_Trips_2019_Q2.csv")
 Divvy_Trips_2019_Q3 <- read_csv("Divvy_Trips_2019_Q3.csv")
 Divvy_Trips_2019_Q4 <- read_csv("Divvy_Trips_2019_Q4.csv")
 Divvy_Trips_2020_Q1 <- read_csv("Divvy_Trips_2020_Q1.csv")
-
 ```
 
 Compare the tables' column names.
@@ -164,7 +163,6 @@ DT_2019_Q4_df <- DT_2019_Q4 %>%
 
 DT_2020_Q1_df <- DT_2020_Q1 %>% 
   select('trip_id', 'start_time', 'end_time', 'tripduration', 'from_station_id', 'from_station_name', 'to_station_id', 'to_station_name', 'usertype')
-
 ```
 
 Add a column to designate quarter-year in each dataframe.
@@ -187,7 +185,6 @@ Now combine the dataframes.
 
 ```
 DT_all <- rbind(DT_2019_Q2_df, DT_2019_Q3_df, DT_2019_Q4_df, DT_2020_Q1_df)
-
 ```
 
 Separate DateTime column to date and time columns.
@@ -195,7 +192,6 @@ Separate DateTime column to date and time columns.
 ```
 DT_all <- tidyr::separate(DT_all, start_time, c('start_date', 'start_time'), sep = ' ')
 DT_all <- tidyr::separate(DT_all, end_time, c('end_date', 'end_time'), sep = ' ')
-
 ```
 
 Check the data structure with glimpse.
@@ -212,7 +208,6 @@ Looks like 'tripduration', 'from_station_id', and 'to-station-id' are the wrong 
 as.character(DT_all$from_station_id)
 as.character(DT_all$to_station_id)
 as.numeric(DT_all$tripduration)
-
 ```
 
 Time to add more date columns to improve analysis granularity.
