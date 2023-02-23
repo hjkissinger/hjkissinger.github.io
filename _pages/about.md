@@ -47,6 +47,7 @@ When I am not working on code, I love to sit in front of my fireplace while I kn
 <ul>
   <li><em>Programming Languages:</em> R, SQL</li>
   <li><em>Tools:</em> Spreadsheets, Excel, RStudio, BigQuery, Tableau</li>
+  <li><em>Certifications:</em> Google Analytics Certificate
 </ul>
 <p><br></p>
 
