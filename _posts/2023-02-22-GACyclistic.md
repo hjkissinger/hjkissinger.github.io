@@ -362,26 +362,26 @@ For an interactive walkthrough of the data analysis and dashboards visit the dat
 
 <u>Percentages</u>
 
-* Casual riders made 25% of the trips.
-* Members made 75% of the trips.
+* **Casual** riders made **25%** of the trips.
+* **Members** made **75%** of the trips.
 
 <u>Peak Times</u>
 
-* There is a peak season for trips in the _third quarter, in June, July, and August_.
-* Casual riders used bikes _more often on weekends_ (Saturdays and Sundays).
-* Members used bikes _more often on weekdays_.
+* There is a **peak season** for trips in the **third quarter**, in _June, July, and August_.
+* **Casual** riders used bikes _more often_ on **weekends** _(Sat/Sun)_.
+* **Members** used bikes _more often_ on **weekdays** _(Mon/Tue/Wed/Thu/Fri)_.
 
-<u>Starting Hour</u>
+<u>Most Popular Starting Hour</u>
 
-* The most popular starting hour for _casual riders is at 5pm_.
-* The most popular starting hour for _members is at 8am and 5pm_.
+* Most **casual** riders start trips at **5pm**.
+* Most **members** start trips at **8am and 5pm**.
 
 **What is the most popular trip start time during Q3 2019 (peak months) for members and casual riders?**
 
 ![Num trips hr dashboard]({{ site.url }}{{ site.baseurl }}/assets/images/post1_2023-02-17/GA_CS1_Num_Trips_hr.jpg)
 
-* Most casual riders start trips between 12pm and 4pm on weekends (Sat/Sun).
-* Most member trips start at 7am/8am or at 5pm on week days (Mon/Tue/Wed/Thu/Fri).
+* Most **casual** riders start trips **between 12pm and 4pm on weekends** _(Sat/Sun)_.
+* Most **member** trips start at **8am or at 5pm on week days** _(Mon/Tue/Wed/Thu/Fri)_.
 
 **How do member and casual trip durations compare yearly?**
 
@@ -389,10 +389,10 @@ For an interactive walkthrough of the data analysis and dashboards visit the dat
 
 <u>Average Trip Duration</u>
 
-* Casual riders have longer trips than members (59.2 min > 14.2 min).
-* There was an unusual average trip duration spike of 161.6 min in January 2020. Further investigation of this time period is recommended.
-* Average trip duration was consistent weekly for members and casual riders, respectively.
-* The longest trips for members and casual riders started at 3am.
+* **Casual** riders have **longer trips** than members _(59.2 min > 14.2 min)_.
+* There was an **unusual average trip duration spike** of 161.6 min in <u>January 2020</u>. Further investigation of this time period is recommended.
+* **Average trip duration** was **consistent weekly** for _both members and casual riders_.
+* The **longest trips for both** members and casual riders **started at 3am**.
 
 # Recommendations for Marketing Campaign
 {: #id2}
@@ -403,13 +403,13 @@ A quick recap on the **Stakeholder Goal**:
 
 **Recommendations**:
 
-1. Target _weekday_ casual riders in peak season (Q3)
-      - Send promotions to customers at 8am and 5pm to encourage commuter membership signups
-      - Encourage larger quantities of shorter trips through a discount reward system
-      - Increase number of bikes available at 5pm to meet the growing demand
+1. Target **_weekday casual_** riders in peak season (**Q3**)
+      - **Send promotions** at **8am & 5pm** to _encourage commuter-member signups_
+      - **Create a discount reward system** to _encourage larger quantities of short trips_
+      - **Increase number of bikes available at 5pm** to _meet the growing demand_
 
-2. Target _weekend_ casual riders in peak season (Q3)
-      -  Send promotions to customers on Thursday and Friday evenings to encourage weekend membership signups
-      -  Use weekend adventure imagery for marketing campaign
-      -  Create sightseeing suggestions perk for members only
+2. Target **_weekend casual_** riders in peak season (**Q3**)
+      -  **Send promotions** on **Thursday & Friday at 5pm** to _encourage weekend-member signups_
+      -  Use **weekend adventure imagery** for _marketing campaign_
+      -  **Create sightseeing suggestions perk** for _members only_
 
