@@ -358,7 +358,7 @@ For an interactive walkthrough of the data analysis and dashboards visit the dat
 
 **How do member trips compare to casual trips yearly? (Q2 2019 - Q1 2020)**
 
-![Num trips dashboard]({{ site.url }}{{ site.baseurl }}/assets/images/post1_2023-02-17/GA_CS1_Num_Trips.jpg)
+![Num trips dashboard]({{ site.url }}{{ site.baseurl }}/assets/images/post1_2023-02-17/GA_CS1_Num_trips.jpg)
 
 <u>Percentages</u>
 
