@@ -41,4 +41,4 @@ feature_row:
 <center><a href="https://hjkissinger.github.io/articles/" class="btn btn--inverse .btn--x-large">Articles</a>
 <a href="https://github.com/hjkissinger/" class="btn btn--inverse .btn--x-large" >GitHub</a>
 <a href="https://public.tableau.com/app/profile/hannah.kissinger6750" class="btn btn--inverse .btn--x-large">Tableau</a>
-<a href="https://www.linkedin.com/in/hannah-j-kissinger-854403116/" class="btn btn--inverse .btn--x-large">LinkedIn</a></center>
+<a href="https://www.linkedin.com/in/hjkissinger/" class="btn btn--inverse .btn--x-large">LinkedIn</a></center>
