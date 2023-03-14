@@ -21,10 +21,10 @@ gallery:
     image_path: /assets/images/post1_2023-02-17/GA_CS1_Trip_dur.jpg
     alt: "Dashboard for GA Cyclistic Bike Share Case Study Average Trip Durations"
     title: "How do member and casual trip durations compare yearly? For more information check out the Cyclistic Bike Share Case Study."
-  - url: /assets/images/alexander-grey-62vi3TG5EDg-unsplash.jpg
-    image_path: /assets/images/alexander-grey-62vi3TG5EDg-unsplash.jpg
-    alt: "placeholder image 1"
-    title: "For more information check out:"
+  - url: /assets/images/post2_2023-03-14/USDA_Farmers_Market_Registrations_Post-Pandemic.jpg
+    image_path: /assets/images/post2_2023-03-14/USDA_Farmers_Market_Registrations_Post-Pandemic.jpg
+    alt: "Dashboard for USDA Farmers Market Registrations Project"
+    title: "Dashboard showing the USDA farmers market registrations by year. For more information check out the USDA Farmers Market Registrations Project."
   - url: /assets/images/alexander-grey-62vi3TG5EDg-unsplash.jpg
     image_path: /assets/images/alexander-grey-62vi3TG5EDg-unsplash.jpg
     alt: "placeholder image 2"
