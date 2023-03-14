@@ -15,15 +15,15 @@ feature_row:
   - image_path: /assets/images/post1_2023-02-17/andreas-haimerl-cv8iKu2ONM-unsplash_c.jpg
     alt: "Picture of bike by Andreas Haimerl on Unsplash"
     title: "Cyclistic Bike Share Case Study"
-    excerpt: "The Cyclistic Bike Share Case Study is from the **Coursera Google Analytics Capstone course**. The goal of this project was to determine factors that differentiate annual members and casual bike riders."
+    excerpt: "The Cyclistic Bike Share Case Study is from the **Coursera Google Analytics Capstone course**. The goal of this project was to determine factors that differentiate annual members and casual bike riders..."
     url: "https://hjkissinger.info/GACyclistic/"
     btn_label: "Read More" 
     btn_class: "btn--inverse"
   - image_path: /assets/images/annie-spratt-PJNZiu7FULA-unsplash_c.jpg
-    alt: "Farmers market stands with fruits"
-    title: "Farmer's Market"
-    excerpt: "Coming Soon"
-    url: "/GACyclistic/"
+    alt: "Farmers market stands with fruits by Annie Spratt on Unsplash"
+    title: "USDA Farmers Market Registrations Project"
+    excerpt: "This data cleaning and analysis project used data collected by the USDA and Michigan State University. The goal was to examine yearly USDA farmers market registrations in the online USDA Local Food Directories from 2020-2022..."
+    url: "/USDAfmr/"
     btn_label: "Read More" 
     btn_class: "btn--inverse"
   - image_path: /assets/images/aaron-burden-2xhOYKK-jAM-unsplash_c.jpg
