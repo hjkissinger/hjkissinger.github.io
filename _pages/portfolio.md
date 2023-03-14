@@ -77,6 +77,9 @@ feature_row2:
 {% include feature_row id="feature_row0-1" type="left" %}
 <a name="Google Analytics Capstone- Cyclistic Bike Share"></a>
 
+{% include feature_row id="feature_row0-2" type="left" %}
+<a name="USDA Farmers Market Registrations Post-Pandemic, Transitioning to Online Directories"></a>
+
 <h5 style="text-align: center;">Interested in learning more about my projects?</h5>
 <center><a href="https://hjkissinger.github.io/about/" class="btn btn--inverse .btn--x-large">About</a>
 <a href="https://hjkissinger.github.io/gallery/" class="btn btn--inverse .btn--x-large" >Gallery</a>
