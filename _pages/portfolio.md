@@ -32,8 +32,8 @@ feature_row0-1:
 feature_row0-2:
   - image_path: /assets/images/post1_2023-02-17/andreas-haimerl-cv8iKu2ONM-unsplash.jpg
     alt: "Picture of blank by blank"
-    title: "USDA Farmers Market Registrations Post-Pandemic, Transitioning to Online Directories"
-    excerpt: "This was a data cleaning and analysis project examining yearly USDA farmers market registrations in an online directory from 2020-2022. Data is from the USDA and Michigan State University."
+    title: "USDA Farmers Market Registrations Project"
+    excerpt: "This data cleaning and analysis project used data collected by the **USDA and Michigan State University**. The goal was to examine yearly USDA farmers market registrations in the online USDA Local Food Directories from 2020-2022. Recommendations were then developed to improve the breadth of the directory."
     url: "https://github.com/hjkissinger/USDA-Farmers-Market"
     btn_label: "Code"
     btn_class: "btn--inverse"
