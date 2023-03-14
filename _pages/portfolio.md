@@ -30,8 +30,8 @@ feature_row0-1:
       -  Data Viz
 
 feature_row0-2:
-  - image_path: /assets/images/post1_2023-02-17/andreas-haimerl-cv8iKu2ONM-unsplash.jpg
-    alt: "Picture of blank by blank"
+  - image_path: /assets/images/post1_2023-02-17/annie-spratt-PJNZiu7FULA-unsplash_c.jpg
+    alt: "Picture of a farmers market by Annie Spratt"
     title: "USDA Farmers Market Registrations Project"
     excerpt: "This data cleaning and analysis project used data collected by the **USDA and Michigan State University**. The goal was to examine yearly USDA farmers market registrations in the online USDA Local Food Directories from 2020-2022. Recommendations were then developed to improve the breadth of the directory."
     url: "https://github.com/hjkissinger/USDA-Farmers-Market"
