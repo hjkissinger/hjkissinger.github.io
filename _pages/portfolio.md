@@ -15,7 +15,7 @@ feature_row0-1:
     alt: "Picture of bike by Andreas Haimerl on Unsplash"
     title: "Cyclistic Bike Share Case Study"
     excerpt: "The Cyclistic Bike Share Case Study is from the **Coursera Google Analytics Capstone course**. The goal of this project was to determine factors that differentiate annual members and casual bike riders. These factors are then used to develop recommendations for a marketing campaign that aims to increase the membership conversion rate."
-    url: "https://github.com/hjkissinger/Coursera-GA-Capstone/tree/main/R-scripts"
+    url: "https://github.com/hjkissinger/Coursera-GA-Capstone/"
     btn_label: "Code"
     btn_class: "btn--inverse"
     url2: "https://hjkissinger.info/GACyclistic/"
@@ -30,12 +30,22 @@ feature_row0-1:
       -  Data Viz
 
 feature_row0-2:
-  - image_path: /assets/images/ishan-seefromthesky-4xmgrNUbyNA-unsplash_teaser.jpg
-    alt: "teaser image"
-    title: "Microplastics"
-    excerpt: "Text goes here"
+  - image_path: /assets/images/post1_2023-02-17/andreas-haimerl-cv8iKu2ONM-unsplash.jpg
+    alt: "Picture of blank by blank"
+    title: "USDA Farmers Market Registrations Post-Pandemic, Transitioning to Online Directories"
+    excerpt: "This was a data cleaning and analysis project examining yearly USDA farmers market registrations in an online directory from 2020-2022. Data is from the USDA and Michigan State University."
+    url: "https://github.com/hjkissinger/USDA-Farmers-Market"
+    btn_label: "Code"
+    btn_class: "btn--inverse"
+    url2: "https://hjkissinger.info/USDAfmr/"
+    btn_label2: "Article"
+    btn_class: "btn--inverse" 
     tags:
-        - demo
+      -  Project
+      -  Tableau
+      -  Data Processing
+      -  Data Analysis
+      -  Data Viz
 
 feature_row0-3:
   - image_path: /assets/images/ishan-seefromthesky-4xmgrNUbyNA-unsplash_teaser.jpg
