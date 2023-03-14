@@ -11,7 +11,7 @@ header:
   image_description: "Picture of a pile of yarn skeins with the words: Portfolio."
   
 feature_row0-1:
-  - image_path: /assets/images/post1_2023-02-17/andreas-haimerl-cv8iKu2ONM-unsplash.jpg
+  - image_path: /assets/images/post1_2023-02-17/andreas-haimerl-cv8iKu2ONM-unsplash_c.jpg
     alt: "Picture of bike by Andreas Haimerl on Unsplash"
     title: "Cyclistic Bike Share Case Study"
     excerpt: "The Cyclistic Bike Share Case Study is from the **Coursera Google Analytics Capstone course**. The goal of this project was to determine factors that differentiate annual members and casual bike riders. These factors are then used to develop recommendations for a marketing campaign that aims to increase the membership conversion rate."
