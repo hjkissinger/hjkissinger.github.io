@@ -52,6 +52,12 @@ feature_row0-3:
     alt: "Picture of cosmetics by Ira G on Unsplash"
     title: "CA Safe Cosmetics Program (CSCP) Project"
     excerpt: "The data used for this project was collected by the **CA Department of Public Health**. The goal of this project was to convert the CSCP spreadsheet into a relational database for downstream analysis. This project was a three part article series: Part I discusses the creation of business rules and an entity relationship diagram for the CSCP dataset. Part II (coming soon) focuses on building the relational database. Part III (coming soon) discusses key insights and visualizations derived from the CSCP dataset."
+    url: "https://github.com/hjkissinger/CSCP-RelationalDB/"
+    btn_label: "Code"
+    btn_class: "btn--inverse"
+    url2: "https://hjkissinger.info/CSCPpt1/"
+    btn_label2: "Article"
+    btn_class: "btn--inverse" 
     tags:
         - Project
         - Tableau
