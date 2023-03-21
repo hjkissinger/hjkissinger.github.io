@@ -48,8 +48,8 @@ feature_row0-2:
       -  Data Viz
 
 feature_row0-3:
-  - image_path: /assets/images/post3_2023-03-21/ira-g-rRBQrd6WOy4-unsplash.jpg
-    alt: "Picture of cosmetics by Ira G on Unsplash"
+  - image_path: /assets/images/post3_2023-03-21/belle-beauty-JPvy3rrWSeM-unsplash.jpg
+    alt: "Picture of cosmetics by Belle Beauty on Unsplash"
     title: "CA Safe Cosmetics Program (CSCP) Project"
     excerpt: "The data used for this project was collected by the **CA Department of Public Health**. The goal of this project was to convert the CSCP spreadsheet into a relational database for downstream analysis. This project was a three part article series: Part I discusses the creation of business rules and an entity relationship diagram for the CSCP dataset. Part II (coming soon) focuses on building the relational database. Part III (coming soon) discusses key insights and visualizations derived from the CSCP dataset."
     url: "https://github.com/hjkissinger/CSCP-RelationalDB/"
@@ -92,6 +92,9 @@ feature_row2:
 
 {% include feature_row id="feature_row0-2" type="left" %}
 <a name="USDA Farmers Market Registrations Post-Pandemic, Transitioning to Online Directories"></a>
+
+{% include feature_row id="feature_row0-3" type="left" %}
+<a name="CA Safe Cosmetics Program (CSCP) Project"></a>
 
 <h5 style="text-align: center;">Interested in learning more about my projects?</h5>
 <center><a href="https://hjkissinger.github.io/about/" class="btn btn--inverse .btn--x-large">About</a>
