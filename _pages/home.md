@@ -30,7 +30,7 @@ feature_row:
     alt: "Cosmetics by Ira G on Unsplash"
     title: "CA Safe Cosmetics Program (CSCP) Project"
     excerpt: "The data used for this project was collected by the **CA Department of Public Health**. The goal of this project was to convert the CSCP spreadsheet into a relational database for downstream analysis..."
-    url: "/blog/"
+    url: "/CSCPpt1/"
     btn_label: "Read More" 
     btn_class: "btn--inverse"
 ---
