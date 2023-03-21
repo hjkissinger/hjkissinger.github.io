@@ -1,0 +1,81 @@
+---
+title: California Safe Cosmetics Program (CSCP) Relational Database Part I
+header:
+  overlay_color: "#32333b"
+  overlay_image: /assets/images/annie-spratt-PJNZiu7FULA-unsplash_c.jpg
+  image_description: "Picture of bike taken by Annie Spratt on Unsplash"
+  show_overlay_excerpt: false
+excerpt: The first step in analysis projects is to familiarize yourself with your data. Understanding the dataset’s structures, relationships, and incomplete data are necessary components when prepping for analysis…
+date: March 21, 2023
+toc: true
+toc_sticky: true
+tags:
+  - Project
+  - Data Processing
+  - Metadata
+  - Business Rules
+  - Relational Database
+---
+## Background
+
+For this project, I will be using the California Safe Cosmetics Program (CSCP) dataset from the California Department of Public Health. This is a dataset intended for public access and use which can be found <a href="https://catalog.data.gov/dataset/chemicals-in-cosmetics-7d6ab">here</a>.
+<br><br>
+**The CSCP’s aim is to compile a list of cosmetic products that contain hazardous ingredients known/suspected of causing cancer, birth defects, or developmental and reproductive harm.** The California Safe Cosmetics Act (2005) and Cosmetic Fragrance Ingredient Right to Know Act (2020) require that all harmful ingredients listed on labels must be reported to the California Department of Public Health to be compiled into a list for public disclosure. 
+<br><br>
+This article is part I of a three part series. Part I discusses the creation of business rules and an entity relationship diagram for the CSCP dataset. Part II (coming soon) focuses on building the relational database. Part III (coming soon) discusses key insights and visualizations derived from the CSCP dataset. If you are interested in following along with my process, check out my <a href=“https://github.com/hjkissinger/CSCP-RelationalDB”>CSCP GitHub repository</a> for metadata, raw data, cleaned tables and more. {: .notice--primary}
+<br><br>
+## Metadata Analysis of the California Safe Cosmetics Program Dataset (CSCP)
+
+The first step in analysis projects is to familiarize yourself with your data. Understanding the dataset’s structures, relationships, and incomplete data are necessary components when prepping for analysis. 
+<br><br>
+So, where do you even start? There is no right or wrong way to begin this process. My preference is to dive into the <a href=“https://github.com/hjkissinger/CSCP-RelationalDB/blob/main/CSV-files/chemicalsincosmetics-dd.xlsx”>metadata</a> to see if there are consistent labeling structures and relationships among unique entities. 
+<br><br>
+A quick look at the metadata shows us that there are _22 attributes_ in this dataset, some of which consist of hierarchies such as category and subcategory. All attributes describe different aspects of the reported cosmetic products, so no consolidation is necessary.
+<br><br>
+At the bottom of the file there is a comment that designates the primary key stating: <u>“These fields together are the unique identifier for an individual product/chemical profile: CDPHId, CSFId, SubCategoryId, ChemicalId.”</u> That’s a very complicated primary key! Identifying unique products requires four separate attributes.
+<br><br>
+Next step was to open up the <a href=“https://github.com/hjkissinger/CSCP-RelationalDB/blob/main/CSV-files/cscpopendata%20copy.csv.zip”>raw data</a> file and check the primary key attributes. We can immediately see that the CSFId attribute has nulls. **As a rule, primary keys can’t have nulls because a null is unable to differentiate one identifier from another.** 
+<br><br>
+Why are there nulls in the CSFId attribute? We can look through the metadata definitions again to figure out why some products have CSFId nulls. CSFId is an indicator for products with variations of color, scent, and taste. If a product has only one formulation, then the primary key will only consist of CDPHId, SubCategoryId, and ChemicalId attributes. 
+<br><br>
+So, the TLDR version of this metadata analysis:
+* The dataset has a complex primary key consisting of four attributes.
+* The primary key component CSFId has nulls.
+<br><br>
+These observations indicate that the CSCP dataset is ineffective as a spreadsheet due to the complexity of searching for unique products. By converting the CSCP dataset into a relational database, it would improve the efficiency and robustness of downstream analysis. 
+
+## Business Rules for the CSCP Dataset
+
+**Before converting a spreadsheet into a relational database, business rules must be developed using the metadata definitions file.**
+<br><br>
+My first step was to identify the table entities, or the real objects that are distinct from one another. Distinct entities in the CSCP data include:
+<br><br>
+* Company
+* Product
+* Primary Category
+* Subcategory
+* Variant
+* Chemical
+<br><br>
+The next step is to write the business rules on **how the products are related to the other entities.** There are three types of entity relationships: one-to-one (1:1), one-to-many (1:M), and many-to-many (M:N).
+<br><br>
+Here is the list of business rules that I created for the CSCP data:
+<br><br>
+1. A company can have many products. A product has one company. (1:M)
+2. A product can have only one primary category. A primary category can have many products. (1:M)
+3. A product can only have one subcategory. A subcategory can have many products. (1:M)
+4. A subcategory product can have many variants- colors/scents/flavors (1:M)
+5. A subcategory product can have many chemicals. Chemicals can be in many subcategory products. (M:N)
+6. A product variant can have many chemicals. Chemicals can be in many products. (M:N)
+
+## Entity Relationship Diagram (ERD) for CSCP Dataset
+
+**Entity relationship diagrams (ERD) are graphical depictions of the relationships between distinct entities.** Each of the six entities was given its own table: Company, Product, Primary Category, Subcategory, Variant, and Chemical. Attributes not designated as distinct entities were distributed to their associated tables. CompanyName, for example, was placed in the ‘Company’ entity table.
+<br><br>
+Business rules five and six, which describe M:N relationships, indicate the need for two additional tables that describe chemicals for product variants and product subcategories. The bridge tables simplify M:N relationships into 1:M, to avoid double counting in the database.
+<br><br>
+Below is the entity relationship diagram (ERD) that was created using dbdiagram.io. This diagram maps out the relationships between CSCP entities using the crow’s foot notation.
+<br><br>
+![ERD for CSCP data]({{ site.url }}{{ site.baseurl }}/assets/images/post3_2023-03-21/CSCP_ERD.jpg)
+<br><br>
+Pretty cool, right? Now that we understand the relationships between entities, we can start building the tables for the relational database (see Part II (coming soon)). If you want to skip to the results, check out Part III (coming soon) for key insights and visualizations derived from the CSCP dataset.
