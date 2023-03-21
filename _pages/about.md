@@ -39,7 +39,7 @@ When I am not working on code, I love to sit in front of my fireplace while I kn
 
 <p><strong>Degrees & Specializations:</strong></p>
 <ul>
-  <li><em>Quinnipiac University, <strong>BS & MHS</strong>:</em> Biomedical Science | Medical Laboratory Science | Microbiology</li>
+  <li><em>Quinnipiac University, <strong>BS & MHS</strong>:</em> Biomedical Science | Medical Laboratory Science</li>
   <li><em>University of North Dakota, <strong>MBA</strong>:</em> Business Analytics</li>
 </ul><br>
 <p><strong>Data Analyst Toolkit:</strong></p>
