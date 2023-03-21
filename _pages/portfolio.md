@@ -48,12 +48,19 @@ feature_row0-2:
       -  Data Viz
 
 feature_row0-3:
-  - image_path: /assets/images/ishan-seefromthesky-4xmgrNUbyNA-unsplash_teaser.jpg
-    alt: "teaser image"
-    title: "Microplastics"
-    excerpt: "Text goes here"
+  - image_path: /assets/images/post3_2023-03-21/ira-g-rRBQrd6WOy4-unsplash.jpg
+    alt: "Picture of cosmetics by Ira G on Unsplash"
+    title: "CA Safe Cosmetics Program (CSCP) Project"
+    excerpt: "The data used for this project was collected by the **CA Department of Public Health**. The goal of this project was to convert the CSCP spreadsheet into a relational database for downstream analysis. This project was a three part article series: Part I discusses the creation of business rules and an entity relationship diagram for the CSCP dataset. Part II (coming soon) focuses on building the relational database. Part III (coming soon) discusses key insights and visualizations derived from the CSCP dataset."
     tags:
-        - demo
+        - Project
+        - Tableau
+        - Data Processing
+        - Metadata
+        - Business Rules
+        - Relational Database
+        - Data Analysis
+        - Data Viz
 
 feature_row0-4:
   - image_path: /assets/images/ishan-seefromthesky-4xmgrNUbyNA-unsplash_teaser.jpg
