@@ -25,10 +25,10 @@ gallery:
     image_path: /assets/images/post2_2023-03-14/USDA_Farmers_Market_Registrations_Post-Pandemic.jpg
     alt: "Dashboard for USDA Farmers Market Registrations Project"
     title: "Dashboard showing the USDA farmers market registrations by year. For more information check out the USDA Farmers Market Registrations Project."
-  - url: /assets/images/alexander-grey-62vi3TG5EDg-unsplash.jpg
-    image_path: /assets/images/alexander-grey-62vi3TG5EDg-unsplash.jpg
-    alt: "placeholder image 2"
-    title: "For more information check out:"
+  - url: /assets/images/post3_2023-03-21/CSCP_ERD.jpg
+    image_path: /assets/images/post3_2023-03-21/CSCP_ERD.jpg
+    alt: "ERD for the CSCP project"
+    title: "Entity relationship diagram made with dbdiagram.io. For more information check out the California Safe Cosmetics Program (CSCP) Relational Database Part I"
   - url: /assets/images/alexander-grey-62vi3TG5EDg-unsplash.jpg
     image_path: /assets/images/alexander-grey-62vi3TG5EDg-unsplash.jpg
     alt: "placeholder image 3"
