@@ -26,10 +26,10 @@ feature_row:
     url: "/USDAfmr/"
     btn_label: "Read More" 
     btn_class: "btn--inverse"
-  - image_path: /assets/images/aaron-burden-2xhOYKK-jAM-unsplash_c.jpg
-    alt: "Bee on flower"
-    title: "Bee Microbiome"
-    excerpt: "Coming Soon"
+  - image_path: /assets/images/post3_2023-03-21/ira-g-rRBQrd6WOy4-unsplash.jpg
+    alt: "Cosmetics by Ira G on Unsplash"
+    title: "CA Safe Cosmetics Program (CSCP) Project"
+    excerpt: "The data used for this project was collected by the CA Department of Public Health. The goal of this project was to convert the CSCP spreadsheet into a relational database for downstream analysis..."
     url: "/blog/"
     btn_label: "Read More" 
     btn_class: "btn--inverse"
