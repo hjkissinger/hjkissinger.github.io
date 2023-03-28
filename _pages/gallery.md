@@ -5,8 +5,8 @@ permalink: /gallery/
 classes: wide
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/oksana-maselko-tkuUS11XyaA-unsplash.jpg
-  image_description: "Picture of a pile of yarn skeins with the words: Gallery."
+  overlay_image: /assets/images/denes-kozma-LJ9d1rkRKUc-unsplash.jpg
+  image_description: "Picture of lavender field with the words: Gallery. Photo by Denes Kozma on Unsplash"
 
 gallery:
   - url: /assets/images/post1_2023-02-17/GA_CS1_Num_trips.jpg
