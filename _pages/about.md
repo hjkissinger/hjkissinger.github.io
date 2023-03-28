@@ -7,8 +7,8 @@ hidden: true
 classes: wide
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/oksana-maselko-tkuUS11XyaA-unsplash.jpg
-  image_description: "Picture of a pile of yarn skeins with the words: About." 
+  overlay_image: /assets/images/denes-kozma-LJ9d1rkRKUc-unsplash.jpg
+  image_description: "Picture of lavender field with the words: About. Photo by Denes Kozma on Unsplash" 
 
 feature_row:
   - image_path: /assets/images/jan-kopriva-TEDo1eO8te4-unsplash.jpg
