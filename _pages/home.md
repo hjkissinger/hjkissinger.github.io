@@ -5,8 +5,8 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/oksana-maselko-tkuUS11XyaA-unsplash.jpg
-  image_description: "Picture of a pile of yarn skeins with the words: Data driven solutions, hand crafted insights. Photo by Oksana Maselko on Unsplash"
+  overlay_image: /assets/images/anca-balc-UbrPUiFp4Bg-unsplash.jpg
+  image_description: "Picture of knit cloth with the words: Data driven solutions, hand crafted insights. Photo by Anca Balc on Unsplash"
   actions: 
     - label: "Learn More"
       url: "/about/" 
