@@ -5,8 +5,8 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/anca-balc-UbrPUiFp4Bg-unsplash.jpg
-  image_description: "Picture of knit cloth with the words: Data driven solutions, hand crafted insights. Photo by Anca Balc on Unsplash"
+  overlay_image: /assets/images/denes-kozma-LJ9d1rkRKUc-unsplash.jpg
+  image_description: "Picture of lavender field with the words: Data driven solutions, hand crafted insights. Photo by Denes Kozma on Unsplash"
   actions: 
     - label: "Learn More"
       url: "/about/" 
