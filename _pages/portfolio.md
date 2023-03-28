@@ -7,8 +7,8 @@ author_profile: true
 comments: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/oksana-maselko-tkuUS11XyaA-unsplash.jpg
-  image_description: "Picture of a pile of yarn skeins with the words: Portfolio."
+  overlay_image: /assets/images/denes-kozma-LJ9d1rkRKUc-unsplash.jpg
+  image_description: "Picture of lavender field with the words: Portfolio. Photo by Denes Kozma on Unsplash"
   
 feature_row0-1:
   - image_path: /assets/images/post1_2023-02-17/andreas-haimerl-cv8iKu2ONM-unsplash_c.jpg
