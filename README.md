@@ -2,12 +2,14 @@
 
 ### This is a GitHub Repository for my <a href="https://hjkissinger.github.io/">Portfolio Website</a>. 
 
-#### I'm an interdisciplinary data analyst who loves:
-- :computer: Coding *(Currently using R/SQL/BASH)*
-- :dna: Science *(Microbiology, Molecular Bio, Health, and Environmental)*
-- :yarn: All things hygge! *(cozy!)* 
+#### I am an interdisciplinary data analyst who loves cleaning and unraveling data mysteries.
 
-### Want to learn more about my projects or collaborate?
+#### Things I love:
+- :computer: Coding *(R/SQL/BASH)*
+- :dna: Science *(Microbiology/Molecular Bio)*
+- :yarn: All things hygge! *(cozy!)*
+
+### Want to learn more about me, my projects or collaborate?
 
 [<img align="left" alt="GitHub" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />][github]
 [<img align="left" alt="Tableau" src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white" />][website]
