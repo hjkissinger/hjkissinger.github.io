@@ -59,7 +59,6 @@ feature_row0-3:
     btn_label2: "Article"
     btn_class: "btn--inverse" 
     tags:
-        - Project
         - Tableau
         - Data Processing
         - Metadata
