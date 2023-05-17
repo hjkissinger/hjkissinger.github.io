@@ -1,5 +1,5 @@
 ---
-title: Reverie Books CT, LLC Database Project Report
+title: Reverie Books CT, LLC Inventory Database
 header:
   overlay_color: "#32333b"
   overlay_image: /assets/images/post5_2023-05-17/freestocks-RgKmrxpIraY-unsplash.jpg
