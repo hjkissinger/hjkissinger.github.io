@@ -72,5 +72,3 @@ By entering data on a single sheet, the client can have confidence that her data
 <br>
 ###Data Management Protocol
 Data management protocols provided to the client included data entry steps for book acquisition and sale, the expansion of the InventorySold clone, and data extraction for Tableau analysis and visualization.
-<br>
-![image](https://github.com/hjkissinger/hjkissinger.github.io/assets/37002724/83fbd263-1f42-4a84-bfa7-039bf275fe7b)
