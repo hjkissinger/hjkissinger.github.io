@@ -65,11 +65,11 @@ The legend and metrics accessory sheets were included for downstream analysis. T
 <br><br>
 All attributes included in the tables were specified by the client. The small business owner wanted the ability to track her inventory’s book type (genre, paperback, etc.) and cost. Cost was divided into three categories: material cost (book acquisition), raw material cost (wrapping paper), and shipping cost. This allows the client to account for cost of sales made via ecommerce or at a tabled event. 
 <br><br>
+The **bolded** attributes in the relational database diagram are **primary keys**. To make the InventoryAvail and InventorySold tables have unique identifiers, the *InventoryAvail Sold_Status must equal FALSE* and *InventorySold Sold_Status must equal TRUE*. That way, each table is a separate entity. The mechanics of these primary keys will be discussed in detail in the next section.
+<br><br>
 **The dictionary table stores static information** on books such as title, author, year, etc. This table is <u>connected to the InventoryAvail and InventorySold tables</u> by the **primary key, GenreID_Key**. 
 <br><br>
-The GenreID_Key is an identifier assigned by the client. It is composed of a letter that designates genre and its database entry number. For example, the first mystery book acquisition would be M0000. With this system, if the client acquires two copies of the same book, the dictionary table would require only one data entry.
-<br><br>
-The **bolded** attributes in the relational database diagram are **primary keys**. To make the InventoryAvail and InventorySold tables have unique identifiers, the *InventoryAvail Sold_Status must equal FALSE* and *InventorySold Sold_Status must equal TRUE*. That way, each table is a separate entity. The mechanics of these primary keys will be discussed in detail in the next section.
+The **GenreID_Key** is an identifier assigned by the client. It is **composed of a letter that designates genre and its database entry number**. For example, the first mystery book acquisition would be M0000. With this system, if the client acquires two copies of the same book, the dictionary table would require only one data entry.
 <br>
 
 ### Database Prototype
