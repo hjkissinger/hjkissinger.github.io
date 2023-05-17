@@ -43,8 +43,8 @@ A diagram is required to illustrate table structure and connections of the datab
 2. <u>Database Prototype</u>
 <br><br>
 The database prototype must be compatible with other spreadsheet programs as well as downloadable as individual tables for analysis and visualization in Tableau.
-<br><br>
 3. <u>Data Management Protocol</u>
+<br><br>
 The checklist will ensure the integrity of the data and simplify long term data management.
 <br>
 
@@ -52,7 +52,14 @@ The checklist will ensure the integrity of the data and simplify long term data 
 
 ### Relational Database Diagram
 
-A relational database diagram was created through the website <a href='https://dbdiagram.io/home'>dbdiagram.io</a>. In this schematic we can see that the database is composed of *three connecting tables*: **an inventory table (InventoryAvail), its clone (InventorySold), and a dictionary table.** The legend and metrics accessory sheets were included for downstream analysis. To find the code for this diagram, click <a href='https://github.com/hjkissinger/ReverieBooksCT/blob/main/RB-DBdiagram'>here</a>.
+A relational database diagram was created through the website <a href='https://dbdiagram.io/home'>dbdiagram.io</a>. 
+<br><br>
+In this schematic we can see that the database is composed of *three connecting tables*: 
+* An inventory table (InventoryAvail)
+* A clone of the inventory table (InventorySold)
+* A dictionary table 
+
+The legend and metrics accessory sheets were included for downstream analysis. To find the code for this diagram, click <a href='https://github.com/hjkissinger/ReverieBooksCT/blob/main/RB-DBdiagram'>here</a>.
 <br><br>
 ![ERD for Reverie Books CT, LLC]({{ site.url }}{{ site.baseurl }}/assets/images/post5_2023-05-17/RB-relationalDB.jpg)
 <br><br>
@@ -72,9 +79,11 @@ This section will discuss building the database prototype in Google Sheets.
 ```
 ={Sheet!A1:K#}
 ```
-**Where K# matches the last column and last row number on InventoryAvail.** This function copies all inputs made on InventoryAvail onto InventorySold. Thus, all data entry can be completed on the InventoryAvail sheet upon book acquisition and sale.
+**Where K# matches the last column and last row number on the InventoryAvail sheet.** 
 <br><br>
-The composite key for InventoryAvail and InventorySold is the assigned SKU and Sold_Status. **Using the ‘Filter’ function** at time intervals (for example Quarter 1), the owner can change the Google Sheets view where InventoryAvail Sold_Status = FALSE and InventorySold Sold_Status = TRUE. This functionality enables the owner of Reverie Books CT to see their current stock and prevent data transfer errors.
+This function copies all inputs made on InventoryAvail onto InventorySold. Thus, all data entry can be completed on the InventoryAvail sheet upon book acquisition and sale.
+<br><br>
+The composite key for InventoryAvail and InventorySold is the assigned SKU and Sold_Status. **Using the ‘Filter’ function** at time intervals (for example Quarter 1), the owner can change the Google Sheets view where **InventoryAvail Sold_Status = FALSE** and **InventorySold Sold_Status = TRUE**. This functionality enables the owner of Reverie Books CT to see their current stock and prevent data transfer errors.
 <br><br>
 To further simplify the data entry process, Google Sheets functions such as *check boxes* (Sold_Status) and *dropdowns* (Price_Type, Product_Type) were added to the InventoryAvail sheet. 
 <br><br>
@@ -83,7 +92,7 @@ To further simplify the data entry process, Google Sheets functions such as *che
 By entering data on a single sheet, the client can have confidence that her data is accurate, complete, and consistent.
 <br>
 
-###Data Management Protocol
+### Data Management Protocol
 
 Data management protocols given to the client included:
 * Data entry steps for book acquisition and sale
