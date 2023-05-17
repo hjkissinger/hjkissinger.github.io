@@ -68,12 +68,21 @@ feature_row0-3:
         - Data Viz
 
 feature_row0-4:
-  - image_path: /assets/images/ishan-seefromthesky-4xmgrNUbyNA-unsplash_teaser.jpg
-    alt: "teaser image"
-    title: "Microplastics"
-    excerpt: "Text goes here"
+  - image_path: /assets/images/post5_2023-05-17/freestocks-RgKmrxpIraY-unsplash_icon.jpg
+    alt: "Picture of books from freestocks on Unsplash"
+    title: "Reverie Books CT, LLC Inventory Database"
+    excerpt: "**Reverie Books CT, LLC** is a small business that sells secondhand books via ecommerce and community tabling events. The client wanted a free, simple solution for managing their inventory, costs, and sales on Google Sheets. The project outcomes are discussed in report format."
+    url: "https://github.com/hjkissinger/ReverieBooksCT/tree/main"
+    btn_label: "Code"
+    btn_class: "btn--inverse"
+    url2: "https://hjkissinger.info/ReverieBooksCT/"
+    btn_label2: "Article"
+    btn_class: "btn--inverse" 
     tags:
-        - demo
+        - Data Processing
+        - Metadata
+        - Relational Database
+        - Spreadsheet
 
 feature_row2:
   - image_path: /assets/images/ishan-seefromthesky-4xmgrNUbyNA-unsplash_teaser.jpg
@@ -94,6 +103,9 @@ feature_row2:
 
 {% include feature_row id="feature_row0-3" type="left" %}
 <a name="CA Safe Cosmetics Program (CSCP) Project"></a>
+
+{% include feature_row id="feature_row0-4" type="left" %}
+<a name="Reverie Books CT, LLC Inventory Database"></a>
 
 <h5 style="text-align: center;">Interested in learning more about my projects?</h5>
 <center><a href="https://hjkissinger.github.io/about/" class="btn btn--inverse .btn--x-large">About</a>
