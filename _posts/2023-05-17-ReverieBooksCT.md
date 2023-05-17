@@ -56,7 +56,7 @@ A relational database diagram was created through the website <a href='https://d
 <br><br>
 ![ERD for Reverie Books CT, LLC]({{ site.url }}{{ site.baseurl }}/assets/images/post5_2023-05-17/RB-relationalDB.jpg)
 <br><br>
-All attributes included in the tables were specified by the client. The small business owner wanted the ability to track her inventory’s book type (genre, paperback, etc.) and cost. Cost was divided into three categories: material cost (book acquisition), raw material cost (wrapping paper), and shipping cost. This allows the client to account for cost of sales made at a tabled event or via ecommerce. 
+All attributes included in the tables were specified by the client. The small business owner wanted the ability to track her inventory’s book type (genre, paperback, etc.) and cost. Cost was divided into three categories: material cost (book acquisition), raw material cost (wrapping paper), and shipping cost. This allows the client to account for cost of sales made via ecommerce or at a tabled event. 
 <br><br>
 **The dictionary table stores static information** on books such as title, author, year, etc. This table is **connected to the InventoryAvail and InventorySold tables by the primary key, GenreID_Key**. The GenreID_Key is an identifier assigned by the client. It is composed of a letter that designates genre and its database entry number. For example, the first mystery book acquisition would be M0000. With this system, if the client acquires two copies of the same book, the dictionary table would require only one data entry.
 <br><br>
