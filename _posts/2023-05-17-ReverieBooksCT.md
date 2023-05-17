@@ -22,7 +22,7 @@ Reverie Books CT, LLC is a small business that sells secondhand books via ecomme
 The owner of Reverie Books CT, LLC encountered an issue regarding their inventory management system. Upon acquisition of a book, pertinent information (ex. title, author, genre) was entered into a ‘Inventory Available’ spreadsheet. When the book was sold, this information was cut and pasted onto an ‘Inventory Sold” spreadsheet. This method made data processing lengthy, preventing the owner from focusing on other business tasks.
 <br>
 ## SPECIFICATIONS
-The owner of Reverie Books CT, LLC wanted a free, simple solution for managing their inventory, costs, and sales. Preferences included using the cloud-based Google Sheets software and the ability to calculate metrics.
+The client wanted a free, simple solution for managing their inventory, costs, and sales. Preferences included using the cloud-based Google Sheets software and the ability to calculate metrics.
 <br>
 ## GOALS
 * Develop a relational database diagram that illustrates the table structure and connections.
@@ -42,7 +42,7 @@ The checklist will ensure the integrity of the data and simplify long term data 
 <br>
 ## DELIVERABLES
 ### Relational Database Diagram
-A relational database diagram was created through the website <a href=’ https://dbdiagram.io/home’>dbdiagram.io</a>. In this schematic we can see that the database is composed of three connecting tables: an inventory table (InventoryAvail), its clone (InventorySold), and a dictionary table. The legend and metrics accessory sheets were included for downstream analysis. To find the code for this diagram, click <a href=’ https://github.com/hjkissinger/ReverieBooksCT/blob/main/RB-DBdiagram’>here</a>.
+A relational database diagram was created through the website <a href='https://dbdiagram.io/home'>dbdiagram.io</a>. In this schematic we can see that the database is composed of three connecting tables: an inventory table (InventoryAvail), its clone (InventorySold), and a dictionary table. The legend and metrics accessory sheets were included for downstream analysis. To find the code for this diagram, click <a href='https://github.com/hjkissinger/ReverieBooksCT/blob/main/RB-DBdiagram'>here</a>.
 <br>
 ![ERD for Reverie Books CT, LLC]({{ site.url }}{{ site.baseurl }}/assets/images/post5_2023-05-17/RB-relationalDB.jpg)
 <br>
