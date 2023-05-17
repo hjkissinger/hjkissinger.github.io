@@ -5,8 +5,8 @@
 #### I am an interdisciplinary data analyst who loves cleaning and unraveling data mysteries.
 
 #### Things I love:
-- :computer: Coding *(R/SQL/BASH)*
-- :dna: Science *(Microbiology/Molecular Bio)*
+- :computer: Coding Solutions *(R/SQL/BASH)*
+- :dna: Science Topics *(Microbiology/Molecular Bio)*
 - :yarn: All things hygge! *(cozy!)*
 
 ### Want to learn more about me, my projects or collaborate?
