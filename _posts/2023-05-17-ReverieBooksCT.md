@@ -54,29 +54,29 @@ The checklist will ensure the integrity of the data and simplify long term data 
 
 ### Relational Database Diagram
 
-A relational database diagram was created through the website <a href='https://dbdiagram.io/home'>dbdiagram.io</a>. In this schematic we can see that the database is composed of three connecting tables: an inventory table (InventoryAvail), its clone (InventorySold), and a dictionary table. The legend and metrics accessory sheets were included for downstream analysis. To find the code for this diagram, click <a href='https://github.com/hjkissinger/ReverieBooksCT/blob/main/RB-DBdiagram'>here</a>.
-<br>
+A relational database diagram was created through the website <a href='https://dbdiagram.io/home'>dbdiagram.io</a>. In this schematic we can see that the database is composed of *three connecting tables*: **an inventory table (InventoryAvail), its clone (InventorySold), and a dictionary table.** The legend and metrics accessory sheets were included for downstream analysis. To find the code for this diagram, click <a href='https://github.com/hjkissinger/ReverieBooksCT/blob/main/RB-DBdiagram'>here</a>.
+<br><br>
 ![ERD for Reverie Books CT, LLC]({{ site.url }}{{ site.baseurl }}/assets/images/post5_2023-05-17/RB-relationalDB.jpg)
-<br>
+<br><br>
 All attributes included in the tables were specified by the client. The small business owner wanted the ability to track her inventory’s book type (genre, paperback, etc.) and cost. Cost was divided into three categories: material cost (book acquisition), raw material cost (wrapping paper), and shipping cost. This allows the client to account for cost of sales made at a tabled event or via ecommerce. 
 <br><br>
-The dictionary table stores static information on books such as title, author, year, etc. This table is connected to the InventoryAvail and InventorySold tables by the primary key, GenreID_Key. The GenreID_Key is an identifier assigned by the client. It is composed of a letter that designates genre and its database entry number. For example, the first mystery book acquisition would be M0000. With this system, if the client acquires two copies of the same book, the dictionary table would require only one data entry.
+**The dictionary table stores static information** on books such as title, author, year, etc. This table is **connected to the InventoryAvail and InventorySold tables by the primary key, GenreID_Key**. The GenreID_Key is an identifier assigned by the client. It is composed of a letter that designates genre and its database entry number. For example, the first mystery book acquisition would be M0000. With this system, if the client acquires two copies of the same book, the dictionary table would require only one data entry.
 <br><br>
-The *bolded* attributes in the relational database diagram are *primary keys*. To make the InventoryAvail and InventorySold tables have unique identifiers, the _InventoryAvail Sold_Status must equal FALSE_ and _InventorySold Sold_Status must equal TRUE_. That way, each table is a separate entity. The mechanics of these primary keys will be discussed in detail in the next section.
+The **bolded** attributes in the relational database diagram are **primary keys**. To make the InventoryAvail and InventorySold tables have unique identifiers, the *InventoryAvail Sold_Status must equal FALSE* and *InventorySold Sold_Status must equal TRUE*. That way, each table is a separate entity. The mechanics of these primary keys will be discussed in detail in the next section.
 <br>
 
 ### Database Prototype
 
 This section will discuss building the database prototype in Google Sheets.
 <br><br>
-The InventorySold clone table was created using the Google Sheets function:
+**The InventorySold clone table was created using the Google Sheets function:**
 
 ```
 ={Sheet!A1:K#}
 ```
 **Where K# matches the last column and last row number on InventoryAvail.** This function copies all inputs made on InventoryAvail onto InventorySold. Thus, all data entry can be completed on the InventoryAvail sheet upon book acquisition and sale.
 <br><br>
-The composite key for InventoryAvail and InventorySold is the assigned SKU and Sold_Status. Using the ‘Filter’ function at time intervals, the owner can change the Google Sheets view where InventoryAvail Sold_Status = FALSE and InventorySold Sold_Status = TRUE. This functionality enables the owner of Reverie Books CT to see their current stock and prevent data transfer errors.
+The composite key for InventoryAvail and InventorySold is the assigned SKU and Sold_Status. **Using the ‘Filter’ function** at time intervals (for example Quarter 1), the owner can change the Google Sheets view where InventoryAvail Sold_Status = FALSE and InventorySold Sold_Status = TRUE. This functionality enables the owner of Reverie Books CT to see their current stock and prevent data transfer errors.
 <br><br>
 To further simplify the data entry process, Google Sheets functions such as *check boxes* (Sold_Status) and *dropdowns* (Price_Type, Product_Type) were added to the InventoryAvail sheet. 
 <br><br>
@@ -87,7 +87,7 @@ By entering data on a single sheet, the client can have confidence that her data
 
 ###Data Management Protocol
 
-Data management protocols provided to the client included:
+Data management protocols given to the client included:
 * Data entry steps for book acquisition and sale
 * Expansion of the InventorySold clone
 * Data extraction for Tableau analysis and visualization
