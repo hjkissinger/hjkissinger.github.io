@@ -89,8 +89,6 @@ The composite key for InventoryAvail and InventorySold is the assigned SKU and S
 <br><br>
 To further simplify the data entry process, Google Sheets functions such as *check boxes* (Sold_Status) and *dropdowns* (Price_Type, Product_Type) were added to the InventoryAvail sheet. 
 <br><br>
-![Spreadsheet for Reverie Books CT, LLC]({{ site.url }}{{ site.baseurl }}/assets/images/post5_2023-05-17/RB-spreadsheet.jpg)
-<br><br>
 By entering data on a single sheet, the client can have confidence that her data is accurate, complete, and consistent.
 <br>
 
