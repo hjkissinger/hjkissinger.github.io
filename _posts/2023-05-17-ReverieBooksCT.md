@@ -20,12 +20,12 @@ tags:
 <br>
 
 ## PROBLEM
-The owner of Reverie Books CT, LLC encountered an issue regarding their inventory management system. Upon acquisition of a book, pertinent information (ex. title, author, genre) was entered into a ‘Inventory Available’ spreadsheet. When the book was sold, this information was cut and pasted onto an ‘Inventory Sold” spreadsheet. This method made data processing lengthy, preventing the owner from focusing on other business tasks.
+The owner of Reverie Books CT, LLC encountered <u>an issue regarding their inventory management system</u>. Upon acquisition of a book, pertinent information (ex. title, author, genre) was entered into a ‘Inventory Available’ spreadsheet. When the book was sold, this information was cut and pasted onto an ‘Inventory Sold” spreadsheet. This method made data processing lengthy, preventing the owner from focusing on other business tasks.
 <br>
 
 ## SPECIFICATIONS
 
-The client wanted a free, simple solution for managing their inventory, costs, and sales. Preferences included using the cloud-based Google Sheets software and the ability to calculate metrics.
+The client wanted a <u>free, simple solution for managing their inventory, costs, and sales</u>. Preferences included using the cloud-based Google Sheets software and the ability to calculate metrics.
 <br>
 
 ## GOALS
