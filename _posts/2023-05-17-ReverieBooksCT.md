@@ -14,8 +14,6 @@ tags:
   - Metadata
   - Relational Database
 ---
-# Reverie Books CT, LLC Database Project
-
 ## OVERVIEW
 
 **Reverie Books CT, LLC is a small business that sells secondhand books via ecommerce and community tabling events.** Customers have the option of purchasing a book in a ‘blind date’ format where the owner selects a book that meets their preferences. This surprise and delight marketing strategy transforms the purchase of a secondhand book into a memorable experience.
