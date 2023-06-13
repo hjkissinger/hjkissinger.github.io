@@ -45,8 +45,8 @@ When I am not working on code, I love to sit in front of my fireplace while I kn
 <p><strong>Data Analyst Toolkit:</strong></p>
 <ul>
   <li><em>Programming Languages:</em> R, Bash, SQL</li>
-  <li><em>Tools:</em> Spreadsheets, Excel, RStudio, Command-line Interface, BigQuery, Tableau</li>
-  <li><em>Certifications:</em> Google Analytics Certificate, Learning Linux for LFCA Certification, Intuit Academy Bookkeeping Specialization</li>
+  <li><em>Tools:</em> Spreadsheets, Microsoft Office Suite, RStudio, Command-line Interface, BigQuery, Tableau, Blackboard, SAS Viya, Qualtrics</li>
+  <li><em>Certifications:</em> Google Analytics Certificate, Learning Linux for LFCA Certification, Intuit Academy Bookkeeping Specialization, SAS Visual Business Analytics Specialization</li>
 </ul>
 <p><br></p>
 
