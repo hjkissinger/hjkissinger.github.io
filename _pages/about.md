@@ -14,17 +14,17 @@ feature_row:
   - image_path: /assets/images/jan-kopriva-TEDo1eO8te4-unsplash.jpg
     alt: "Data processing. Picture of dust pan hanging on a wall. Photo by Jan Kopriva on Unsplash."
     title: "Data Processing"
-    excerpt: "Dirty data begone! Messy data gets in the way of powerful insights. To prep for analysis, I clean data using **R, SQL, Spreadsheets, and Excel**."
+    excerpt: "Dirty data begone! Messy data gets in the way of powerful insights. To prep for analysis, I clean data using **R, SQL, Spreadsheets, Excel, and SAS Data Studio**."
 
   - image_path: /assets/images/dawid-liberadzki-vPFbVB7DPZI-unsplash.jpg
     alt: "Data Analytics. Picture of Mac computer on table. Photo by Dawid Liberadzki on Unsplash."
     title: "Data Analytics"
-    excerpt: "I employ a wide range of analytical techniques to unravel data mysteries. These hidden patterns, problems, and solutions are revealed through **statistical, time-series, and regression analyses**. "
+    excerpt: "I employ a wide range of analytical techniques to unravel data mysteries. These hidden patterns, problems, and solutions are revealed through **exploratory, statistical, time-series, and regression analyses**. "
 
   - image_path: /assets/images/edward-howell-VlTJdP8ZY1c-unsplash.jpg
     alt: "Data Visualization. Picture of six carnations lined up as a bar graph. Photo by Edward Howell on Unsplash."
     title: "Data Visualization"
-    excerpt: "Through the art of visualization, analyzed data becomes actionable knowledge for stakeholders. I produce visualizations using **R, Spreadsheets, Excel, and Tableau**."
+    excerpt: "Through the art of visualization, analyzed data becomes actionable knowledge for stakeholders. I produce visualizations using **R, Spreadsheets, Excel, Tableau, and SAS Visual Analytics**."
  
 ---
 
