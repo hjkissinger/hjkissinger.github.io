@@ -5,7 +5,7 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/denes-kozma-LJ9d1rkRKUc-unsplash.jpg
+  overlay_image: /assets/images/LIBanner.jpeg
   image_description: "Picture of lavender field with the words: Data driven solutions, hand crafted insights. Photo by Denes Kozma on Unsplash"
   actions: 
     - label: "Learn More"
