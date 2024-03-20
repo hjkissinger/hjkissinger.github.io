@@ -1,5 +1,5 @@
 ---
-title:  "Data Driven Solutions.<br>Handcreafted Insights."
+title:  "Data Driven Solutions.<br>Handcrafted Insights."
 layout: splash
 permalink: /
 hidden: true
