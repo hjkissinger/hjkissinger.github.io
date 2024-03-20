@@ -61,9 +61,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Hannah J. Kissinger"
+  name   : "Hannah J. Kissinger, MHS, MBA"
   avatar : "/assets/images/KissingerHannah2024-2.jpg"
-  bio    : "<em>Interdisciplinary data analyst, MHS MBA</em>"
+  bio    : "<em>Not your average data detective</em>"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
