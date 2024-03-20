@@ -31,11 +31,13 @@ feature_row:
 
 ![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/hjkissinger-pic_250x300.jpg){: .align-right}
 
-<p>Hi, my name is Hannah J. Kissinger!  I am an interdisciplinary data analyst who loves cleaning and unraveling data mysteries. I have <strong>five years of scientific research experience</strong>, which includes project design, data collection, hypothesis testing, analysis, and presentation. As a lifelong learner, I actively seek opportunities to grow. My two masters' degrees in <em>medical laboratory sciences (MHS)</em> and <em>business administration (MBA)</em> grant me a <strong>unique perspective when solving problems at the intersection of health science and business.</strong>
+<p>Hi, my name is Hannah J. Kissinger! I am an interdisciplinary data analyst who loves a good data mystery. I currently work at <strong>Yale University as a Program Coordinator in the Office of Development</strong>. My background in business strategy, organizational learning, business intelligence software, analytics, and scientific methods grant me a <strong>unique perspective when revamping business processes for modern-day challenges</strong>. 
 <br><br>
-The goal of my projects is to make data-derived insights simple, yet compelling for stakeholders. My data-analyst toolkit includes programming languages <em>R and SQL</em> along with tools such as <em>Spreadsheets, Excel, RStudio, BigQuery, Tableau, and SAS Visual Analytics.</em> <strong>I believe that knowledge generated from data has the power to protect people and the planet, driving change through informed solutions.</strong>
+Rather than reinventing the wheel, I develop business intelligence tools from common software, such as Microsoft Excel, PowerBI, and Windows PowerShell. I aim to make tools <strong>tailored to specific business problems, replicable, and accessible for all skill levels</strong>.
 <br><br>
-When I am not working on code, I love to sit in front of my fireplace while I knit and spend time with my six rescue dogs! In the warmer weather, I enjoy going on hikes to identify flora and fauna of New England. <strong>My life philosophy is 'Live Hygge!' </strong><em>(Live Cozy!)</em>
+To create these solutions, I collect information from <em>key stakeholders</em> and then develop the solution with <em>UX design thinking methods</em>. Sometimes this means filling up an entire whiteboard or making colorful sticky-note decision trees! I then develop the business intelligence tool and its standard operating procedure (SOP) <em>jointly</em>, to ensure the replicability. These SOPs detail the process in <strong>textual, diagrammatic, and pictorial formats to improve organizational learning outcomes for all skill levels</strong>.
+<br><br>
+<strong>My personal wish is to have my projects endure and grow to fit others' needs. So let's collaborate!</strong>
 
 <p><strong>Degrees & Specializations:</strong></p>
 <ul>
@@ -44,9 +46,9 @@ When I am not working on code, I love to sit in front of my fireplace while I kn
 </ul><br>
 <p><strong>Data Analyst Toolkit:</strong></p>
 <ul>
-  <li><em>Programming Languages:</em> R, Bash, SQL</li>
-  <li><em>Tools:</em> Spreadsheets, Microsoft Office Suite, RStudio, Command-line Interface, BigQuery, Tableau, Blackboard, SAS Visual Analytics, Qualtrics, Workday</li>
-  <li><em>Certifications:</em> Google Analytics Certificate, Learning Linux for LFCA Certification, Intuit Academy Bookkeeping Specialization, SAS Visual Business Analytics Specialization, Workday Basics, Workday Beyond Basics</li>
+  <li><em>Programming Languages:</em> PowerShell/Bash, R, SQL</li>
+  <li><em>Tools:</em> Microsoft Office 365, Blackbaud CRM, PowerBI/Tableau/SAS Visual Analytics, Qualtrics, Workday, Canva, RStudio, BigQuery</li>
+  <li><em>Certifications:</em> Google Analytics Certificate, Learning Linux for LFCA Certification, Intuit Academy Bookkeeping Specialization, SAS Visual Business Analytics Specialization, Learn with Workday, Strategic Management and Innovation Specialization</li>
 </ul>
 <p><br></p>
 
