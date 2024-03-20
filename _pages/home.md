@@ -1,5 +1,5 @@
 ---
-title:  " "
+title:  "Not your average data detective."
 layout: splash
 permalink: /
 hidden: true
