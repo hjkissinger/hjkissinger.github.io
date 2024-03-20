@@ -1,14 +1,14 @@
 ---
-title:  "<p>Data-Driven Solutions.<br>Hand-Crafted Insights.</p>"
+title:  " "
 layout: splash
 permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/LIBanner.jpeg
-  image_description: "Picture of lavender field with the words: Data driven solutions, hand crafted insights. Photo by Denes Kozma on Unsplash"
+  image_description: "Picture with the words: Data driven solutions, hand crafted insights. Photo by Denes Kozma on Unsplash"
   actions: 
-    - label: "Learn More"
+    - label: "About Me"
       url: "/about/" 
 
 feature_row:
