@@ -1,11 +1,11 @@
 ---
-title:  " "
+title:  "Data Driven Solutions.<br>Handcreafted Insights."
 layout: splash
 permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/LIBanner032024.png
+  overlay_image: /assets/images/denes-kozma-LJ9d1rkRKUc-unsplash.jpg
   image_description: "Picture with the words: Data driven solutions, hand crafted insights. Photo by Denes Kozma on Unsplash"
   actions: 
     - label: "About Me"
