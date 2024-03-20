@@ -29,7 +29,7 @@ feature_row:
 ---
 
 
-![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/KissingerHannah2024-wm.png){: .align-right}
+![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/HJKissinger2024_250x300.jpg){: .align-right}
 
 <p>Hi, my name is Hannah J. Kissinger! I am an interdisciplinary data analyst who loves a good data mystery. I currently work at <strong>Yale University as a Program Coordinator in the Office of Development</strong>. My background in business strategy, organizational learning, business intelligence software, analytics, and scientific methods grant me a <strong>unique perspective when revamping business processes for modern-day challenges</strong>. 
 <br><br>
