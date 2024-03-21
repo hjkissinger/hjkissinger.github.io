@@ -51,7 +51,7 @@ feature_row0-3:
   - image_path: /assets/images/post3_2023-03-21/belle-beauty-JPvy3rrWSeM-unsplash.jpg
     alt: "Picture of cosmetics by Belle Beauty on Unsplash"
     title: "CA Safe Cosmetics Program (CSCP) Project"
-    excerpt: "The data used for this project was collected by the **CA Department of Public Health**. The goal of this project was to convert the CSCP spreadsheet into a relational database for downstream analysis. This project was a three part article series: **Part I** discusses the creation of business rules and an entity relationship diagram for the CSCP dataset. **Part II** focuses on building the relational database."
+    excerpt: "The data used for this project was collected by the **CA Department of Public Health**. The goal of this project was to convert the CSCP spreadsheet into a relational database for downstream analysis. This project was a two part article series: **Part I** discusses the creation of business rules and an entity relationship diagram for the CSCP dataset. **Part II** focuses on building the relational database."
     url: "https://github.com/hjkissinger/CSCP-RelationalDB/"
     btn_label: "Code"
     btn_class: "btn--inverse"
